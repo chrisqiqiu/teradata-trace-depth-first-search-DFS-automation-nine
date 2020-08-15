@@ -1,0 +1,1225 @@
+- prod_prstn_view.dim_agency
+    - prod_prstn.dim_agency
+        - prod_prstn_trnsfrm_view.TX_dim_agency_genera_778
+            - prod_prstn_trnsfrm.dim_agency_genera_drv
+                - prod_prstn_trnsfrm_view.TX_dim_agency_genera_drv_insert_797
+                    - prod_mdl_src_view.accounts
+                        - prod_mdl.accounts
+                            - prod_mdl_trnsfrm_view.TX_accounts_1004_3000_074
+                                - prod_srci_src_view.SRCI_1004_3000_account
+                                    - prod_srci.SRCI_1004_3000_account
+                                        - prod_srci_trnsfrm_view.TX_1004_3000_account
+                                            - prod_stg_src_view.STG_1004_3000_account
+                                                - prod_stg.STG_1004_3000_account
+                                            - prod_ref_src_view.BKEY_5942_ITEM_PRICING
+                                            - prod_ref_src_view.BMAP_Standard_Map
+                                            - prod_ref_src_view.BKEY_5026_ACNT
+                                            - prod_ref_src_view.BKEY_5915_ITEM
+                                            - prod_ref_src_view.BKEY_6300_PRTY
+                            - prod_mdl_trnsfrm_view.TX_accounts_1005_3048_075
+                                - prod_srci_src_view.SRCI_1005_3048_accounts
+                                    - prod_srci.SRCI_1005_3048_accounts
+                                        - prod_srci_trnsfrm_view.TX_1005_3048_accnt
+                                            - prod_stg_src_view.STG_1005_3048_accounts
+                                                - prod_stg.STG_1005_3048_accounts
+                                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                            - prod_mdl_trnsfrm_view.TX_accounts_1006_3509_08B
+                                - prod_SRCI_src_view.SRCI_1006_3509_account
+                                    - prod_srci.SRCI_1006_3509_account
+                                        - prod_srci_trnsfrm_view.TX_1006_3509_account
+                                            - prod_stg_src_view.STG_1006_3509_account
+                                                - prod_stg.STG_1006_3509_account
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                                            - prod_ref_src_view.BKEY_5112_ADDRESS
+                                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                            - prod_ref_src_view.BMAP_STANDARD_MAP
+                            - prod_mdl_trnsfrm_view.TX_account_1011_3170_720 [mds]
+                                - prod_srci_src_view.SRCI_1011_3170_vw_Accounts_E_AccountGGP_LeafMembers [mds]
+                                    - prod_srci.SRCI_1011_3170_vw_accounts_e_accountggp_leafmembers [mds]
+                                        - prod_srci_trnsfrm_view.TX_1011_3170_vw_A_E_AGGP_LM [mds]
+                                            - prod_stg_src_view.STG_1011_3170_vw_accounts_e_accountggp_leafmembers [mds]
+                                                - prod_stg.STG_1011_3170_vw_accounts_e_accountggp_leafmembers [mds]
+                                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_1011_3171_719 [mds]
+                                - prod_srci_src_view.SRCI_1011_3171_vw_accounts_e_accountgp_leafmembers [mds]
+                                    - prod_srci.SRCI_1011_3171_vw_accounts_e_accountgp_leafmembers [mds]
+                                        - prod_srci_trnsfrm_view.TX_1011_3171_vw_A_E_AGP_LM [mds]
+                                            - prod_stg_src_view.STG_1011_3171_vw_accounts_e_accountgp_leafmembers [mds]
+                                                - prod_stg.STG_1011_3171_vw_accounts_e_accountgp_leafmembers [mds]
+                                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                            - prod_mdl_trnsfrm_view.TX_accounts_1011_4407_13Q [mds]
+                                - prod_srci_src_view.SRCI_1011_4407_vw_accounts_e_corpsubsaccountparent_leafmembers [mds]
+                                    - prod_srci.SRCI_1011_4407_vw_accounts_e_corpsubsaccountparent_leafmembers [mds]
+                                        - prod_srci_trnsfrm_view.TX_1011_4407_vw_A_E_CSAP_LM [mds]
+                                            - prod_stg_src_view.STG_1011_4407_vw_accounts_e_corpsubsaccountparent_leafmembers [mds]
+                                                - prod_stg.STG_1011_4407_vw_accounts_e_corpsubsaccountparent_leafmembers [mds]
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_1011_3172_721 [mds]
+                                - prod_srci_src_view.SRCI_1011_3172_vw_accounts_e_accountparent_leafmembers [mds]
+                                    - prod_srci.SRCI_1011_3172_vw_accounts_e_accountparent_leafmembers [mds]
+                                        - prod_srci_trnsfrm_view.TX_1011_3172_vw_A_E_AP_LM [mds]
+                                            - prod_stg_src_view.STG_1011_3172_vw_accounts_e_accountparent_leafmembers [mds]
+                                                - prod_stg.STG_1011_3172_vw_accounts_e_accountparent_leafmembers [mds]
+                                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                                            - prod_ref_src_view.BKEY_7201_ACNT_GRP
+                            - prod_mdl_trnsfrm_view.TX_accounts_1014_3247_13W
+                                - prod_srci_src_view.SRCI_1014_3247_vw_group_subscriptions
+                                    - prod_srci.SRCI_1014_3247_vw_group_subscriptions
+                                        - prod_srci_trnsfrm_view.TX_1014_3247_vw_grp_sub
+                                            - prod_stg_src_view.STG_1014_3247_vw_group_subscriptions
+                                                - prod_stg.STG_1014_3247_vw_group_subscriptions
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_mdl_trnsfrm_view.TX_accounts_1015_3383_13X
+                                - prod_srci_src_view.SRCI_1015_3383_cmsalessubsource
+                                    - prod_srci.SRCI_1015_3383_cmsalessubsource
+                                        - prod_srci_trnsfrm_view.TX_1015_3383_cmSalesSubSrc
+                                            - prod_stg_src_view.STG_1015_3383_cmsalessubsource
+                                                - prod_stg.STG_1015_3383_cmsalessubsource
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                            - prod_mdl_trnsfrm_view.TX_accounts_1015_3393_0GN
+                                - prod_srci_src_view.SRCI_1015_3393_cmsubscription
+                                    - prod_srci.SRCI_1015_3393_cmsubscription
+                                        - prod_srci_trnsfrm_view.TX_1015_3393_cmSubscription
+                                            - prod_stg_src_view.STG_1015_3393_cmsubscription
+                                                - prod_stg.STG_1015_3393_cmsubscription
+                                            - prod_ref_src_view.BKEY_7256_ITEM_FREQUENCY
+                                            - prod_ref_src_view.BKEY_5316_CAMPAIGN
+                                            - prod_ref_src_view.BKEY_6835_SUBSCRIPTION
+                                            - prod_ref_src_view.BKEY_7315_SUBSCRIPTION_LINE_ITEM
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                            - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+                            - prod_mdl_trnsfrm_view.TX_accounts_1045_4372_12I
+                                - prod_srci_src_view.srci_1045_4372_accounts
+                                    - prod_srci.SRCI_1045_4372_accounts
+                                        - prod_srci_trnsfrm_view.TX_1045_4372_accounts
+                                            - prod_stg_src_view.STG_1045_4372_accounts
+                                                - prod_stg.STG_1045_4372_accounts
+                                            - prod_ref_src_view.BKEY_6835_SUBSCRIPTION **traced above**
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                                            - prod_ref_src_view.BKEY_5112_ADDRESS **traced above**
+                                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                    - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+                    - prod_mdl_src_view.account_class_xref
+                        - prod_mdl.account_class_xref
+                            - prod_mdl_trnsfrm_view.TX_account_class_xref_1004_3000_529
+                                - prod_srci_src_view.SRCI_1004_3000_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_class_xref_1004_3000_522
+                                - prod_srci_src_view.SRCI_1004_3000_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_class_xref_1004_3000_787
+                                - prod_srci_src_view.SRCI_1004_3000_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_class_xref_1005_3048_788
+                                - prod_srci_src_view.SRCI_1005_3048_accounts **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_class_xref_1006_3509_08G
+                                - prod_srci_src_view.SRCI_1006_3509_account
+                                    - prod_srci.SRCI_1006_3509_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_class_xref_1006_3509_08I
+                                - prod_srci_src_view.SRCI_1006_3509_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_class_xref_1006_3509_08F
+                                - prod_srci_src_view.SRCI_1006_3509_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_class_xref_1006_3509_08L
+                                - prod_srci_src_view.SRCI_1006_3509_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_class_xref_1006_3509_08M
+                                - prod_srci_src_view.SRCI_1006_3509_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_class_xref_1006_3509_08N
+                                - prod_srci_src_view.SRCI_1006_3509_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_class_xref_1006_3509_08K
+                                - prod_srci_src_view.SRCI_1006_3509_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_class_xref_1006_3509_08J
+                                - prod_srci_src_view.SRCI_1006_3509_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_class_xref_1006_3509_08H
+                                - prod_srci_src_view.SRCI_1006_3509_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_class_xref_1011_3169_729 [mds]
+                                - prod_srci_src_view.SRCI_1011_3169_vw_accounts_e_account_leafmembers [mds]
+                                    - prod_srci.SRCI_1011_3169_vw_accounts_e_account_leafmembers [mds]
+                                        - prod_srci_trnsfrm_view.TX_1011_3169_vw_A_E_A_LM [mds]
+                                            - prod_stg_src_view.STG_1011_3169_vw_accounts_e_account_leafmembers [mds]
+                                                - prod_stg.STG_1011_3169_vw_accounts_e_account_leafmembers [mds]
+                                            - prod_stg_src_view.STG_1011_3688_vw_accounts_e_industry_leafmembers [mds]
+                                                - prod_stg.STG_1011_3688_vw_accounts_e_industry_leafmembers [mds]
+                                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                - prod_srci_src_view.SRCI_1011_3172_vw_accounts_e_accountparent_leafmembers [mds] **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_class_xref_1011_3169_728 [mds]
+                                - prod_srci_src_view.SRCI_1011_3169_vw_accounts_e_account_leafmembers [mds] **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_class_xref_1011_3169_854 [mds]
+                                - prod_srci_src_view.SRCI_1011_3169_vw_accounts_e_account_leafmembers [mds] **traced above**
+                    - prod_srci_src_view.SRCI_1054_4461_account
+                        - prod_srci.SRCI_1054_4461_account
+                            - prod_srci_trnsfrm_view.TX_1054_4461_account
+                                - prod_stg_src_view.STG_1054_4461_account
+                                    - prod_stg.STG_1054_4461_account
+                                - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                        - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                        - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                        - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                        - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+                    - prod_mdl_src_view.ACCOUNT_GROUP
+                        - prod_mdl.account_group
+                            - prod_mdl_trnsfrm_view.TX_account_group_1011_3174_730 [mds]
+                                - prod_srci_src_view.SRCI_1011_3174_vw_accounts_e_accountcategory_leafmembers [mds]
+                                    - prod_srci.SRCI_1011_3174_vw_accounts_e_accountcategory_leafmembers [mds]
+                                        - prod_srci_trnsfrm_view.TX_1011_3174_vw_A_E_AC_LM [mds]
+                                            - prod_stg_src_view.STG_1011_3174_vw_accounts_e_accountcategory_leafmembers [mds]
+                                                - prod_stg.STG_1011_3174_vw_accounts_e_accountcategory_leafmembers [mds]
+                                            - prod_ref_src_view.BKEY_7201_ACNT_GRP **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_group_1011_3179_731 [mds]
+                                - prod_srci_src_view.SRCI_1011_3179_vw_Accounts_E_Tier_LeafMembers [mds]
+                                    - prod_srci.SRCI_1011_3179_vw_accounts_e_tier_leafmembers [mds]
+                                        - prod_srci_trnsfrm_view.TX_1011_3179_vw_A_E_TIER_LM [mds]
+                                            - prod_stg_src_view.STG_1011_3179_vw_accounts_e_tier_leafmembers [mds]
+                                                - prod_stg.STG_1011_3179_vw_accounts_e_tier_leafmembers [mds]
+                                            - prod_ref_src_view.BKEY_7201_ACNT_GRP **traced above**
+                    - prod_mdl_src_view.ad_order_header
+                        - prod_mdl.ad_order_header
+                            - prod_mdl_trnsfrm_view.TX_ad_order_header_1004_3019_092
+                                - prod_srci_src_view.SRCI_1004_3019_booking
+                                    - prod_srci.SRCI_1004_3019_booking
+                                        - prod_srci_trnsfrm_view.TX_1004_3019_booking
+                                            - prod_stg_src_view.STG_1004_3019_booking
+                                                - prod_stg.STG_1004_3019_booking
+                                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                                            - prod_ref_src_view.BKEY_5066_AD_ORDR_HDR
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                            - prod_ref_src_view.BKEY_6019_LCTN
+                            - prod_mdl_trnsfrm_view.TX_ad_order_header_1005_3056_134
+                                - prod_srci_src_view.SRCI_1005_3056_sales_order
+                                    - prod_srci.SRCI_1005_3056_sales_order
+                                        - prod_srci_trnsfrm_view.TX_1005_3056_sale_ordr
+                                            - prod_stg_src_view.STG_1005_3056_sales_order
+                                            - prod_ref_src_view.BKEY_5066_AD_ORDR_HDR **traced above**
+                                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                        - prod_srci_trnsfrm_view.TX_1005_3056_sale_ordr_del
+                                            - prod_SRCI_SRC_VIEW.SRCI_1005_3056_sales_order
+                                                - prod_srci.SRCI_1005_3056_sales_order **traced above**
+                                            - prod_STG_SRC_VIEW.STG_1005_3056_sales_order
+                    - prod_mdl_src_view.ACCOUNT_ACCOUNT_GROUP_HIST
+                        - prod_mdl.account_account_group_hist
+                            - prod_mdl_trnsfrm_view.TX_account_account_group_hist_1011_3169_732 [mds]
+                                - prod_srci_src_view.SRCI_1011_3169_vw_accounts_e_account_leafmembers [mds] **traced above**
+                                - prod_srci_src_view.SRCI_1011_3172_vw_accounts_e_accountparent_leafmembers [mds] **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_account_group_hist_1011_3169_733 [mds]
+                                - prod_srci_src_view.SRCI_1011_3169_vw_accounts_e_account_leafmembers [mds] **traced above**
+                                - prod_srci_src_view.SRCI_1011_3172_vw_accounts_e_accountparent_leafmembers [mds] **traced above**
+                    - prod_mdl_src_view.account_type
+                        - prod_ref.BMAP_STANDARD_MAP
+                        - prod_ref.BMAP_REFERENCE_DESCRIPTION
+                    - prod_mdl_src_view.ad_order_header_account_hist
+                        - prod_mdl.ad_order_header_account_hist
+                            - prod_mdl_trnsfrm_view.TX_ad_order_header_account_hist_1004_3019_097
+                                - prod_srci_src_view.SRCI_1004_3019_booking **traced above**
+                            - prod_mdl_trnsfrm_view.TX_ad_order_header_account_hist_1004_3019_096
+                                - prod_srci_src_view.SRCI_1004_3019_booking **traced above**
+                            - prod_mdl_trnsfrm_view.TX_ad_order_header_account_hist_1004_3019_098
+                                - prod_srci_src_view.SRCI_1004_3019_booking **traced above**
+                            - prod_mdl_trnsfrm_view.TX_ad_order_header_account_hist_1005_3066_140
+                                - prod_srci_src_view.SRCI_1005_3066_sales_order_accounts_map
+                                    - prod_srci.SRCI_1005_3066_sales_order_accounts_map
+                                        - prod_srci_trnsfrm_view.TX_1005_3066_sale_ordr_acntmap
+                                            - prod_stg_src_view.STG_1005_3066_sales_order_accounts_map
+                                                - prod_stg.STG_1005_3066_sales_order_accounts_map
+                                            - prod_ref_src_view.BKEY_5066_AD_ORDR_HDR **traced above**
+                                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                            - prod_mdl_trnsfrm_view.TX_ad_order_header_account_hist_1005_3056_137
+                                - prod_srci_src_view.SRCI_1005_3056_sales_order **traced above**
+                            - prod_mdl_trnsfrm_view.TX_ad_order_header_account_hist_1005_3056_139
+                                - prod_srci_src_view.SRCI_1005_3056_sales_order **traced above**
+                            - prod_mdl_trnsfrm_view.TX_ad_order_header_account_hist_1005_3056_138
+                                - prod_srci_src_view.SRCI_1005_3056_sales_order **traced above**
+                    - prod_mdl_src_view.party_account_hist
+                        - prod_mdl.party_account_hist
+                            - prod_mdl_trnsfrm_view.TX_party_account_hist_1004_3000_064
+                                - prod_srci_src_view.SRCI_1004_3000_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_party_account_hist_1005_3048_068
+                                - prod_srci_src_view.SRCI_1005_3048_accounts **traced above**
+                            - prod_mdl_trnsfrm_view.TX_party_account_hist_1006_3509_08S
+                                - prod_srci_src_view.SRCI_1006_3509_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_party_account_hist_1006_3509_08Q
+                                - prod_srci_src_view.SRCI_1006_3509_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_party_account_hist_1006_3517_0HZ
+                                - prod_srci_src_view.SRCI_1006_3517_contact
+                                    - prod_srci.SRCI_1006_3517_contact
+                                        - prod_srci_trnsfrm_view.TX_1006_3517_contact
+                                            - prod_stg_src_view.STG_1006_3517_contact
+                                                - prod_stg.STG_1006_3517_contact
+                                            - prod_ref_src_view.BKEY_5392_CITY
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                                            - prod_ref_src_view.BKEY_5112_ADDRESS **traced above**
+                                            - prod_ref_src_view.BKEY_5460_COUNTY
+                                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                            - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+                            - prod_mdl_trnsfrm_view.TX_party_account_hist_1006_3509_08R
+                                - prod_srci_src_view.SRCI_1006_3509_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_party_account_hist_1011_3169_727 [mds]
+                                - prod_srci_src_view.SRCI_1011_3169_vw_accounts_e_account_leafmembers [mds] **traced above**
+                            - prod_mdl_trnsfrm_view.TX_party_account_hist_1011_3169_726 [mds]
+                                - prod_srci_src_view.SRCI_1011_3169_vw_accounts_e_account_leafmembers [mds] **traced above**
+                            - prod_mdl_trnsfrm_view.TX_party_account_hist_1045_4372_12K
+                                - prod_srci_src_view.srci_1045_4372_accounts **traced above**
+                            - prod_mdl_trnsfrm_view.TX_party_account_hist_1045_4373_12L
+                                - prod_srci_src_view.SRCI_1045_4373_accounts_identities
+                                    - prod_srci.SRCI_1045_4373_accounts_identities
+                                        - prod_srci_trnsfrm_view.TX_1045_4373_accidentity
+                                            - prod_stg_src_view.STG_1045_4373_accounts_identities
+                                                - prod_stg.STG_1045_4373_accounts_identities
+                                            - prod_ref_src_view.BKEY_5392_CITY **traced above**
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                                            - prod_ref_src_view.BKEY_5112_ADDRESS **traced above**
+                                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                        - prod_srci_trnsfrm_view.TX_1045_4373_accidentity_del
+                                            - prod_srci_src_view.SRCI_1045_4373_accounts_identities **traced above**
+                                            - prod_stg_src_view.STG_1045_4373_accounts_identities **traced above**
+                                    - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+                            - prod_mdl_trnsfrm_view.TX_party_account_hist_1045_4387_13L
+                                - prod_srci_src_view.SRCI_1045_4387_accounts_data_preferencescentre_newslettersubscriptions
+                                    - prod_srci.SRCI_1045_4387_accounts_data_preferencescentre_newslettersubscriptions
+                                        - prod_srci_trnsfrm_view.TX_1045_4387_data_pc_newssub
+                                            - prod_stg_src_view.STG_1045_4387_accounts_data_preferencescentre_newslettersubscriptions
+                                                - prod_stg.STG_1045_4387_accounts_data_preferencescentre_newslettersubscriptions
+                                            - prod_ref_src_view.BKEY_6835_SUBSCRIPTION **traced above**
+                                            - prod_ref_src_view.BKEY_7315_SUBSCRIPTION_LINE_ITEM **traced above**
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                        - prod_srci_trnsfrm_view.TX_1045_4387_data_pc_newssub_del
+                                            - prod_srci_src_view.SRCI_1045_4387_accounts_data_preferencescentre_newslettersubscriptions **traced above**
+                                            - prod_stg_src_view.STG_1045_4387_accounts_data_preferencescentre_newslettersubscriptions **traced above**
+                    - prod_mdl_src_view.account_hierarchy_hist
+                        - prod_mdl.account_hierarchy_hist
+                            - prod_mdl_trnsfrm_view.TX_account_hierarchy_hist_1004_3000_052
+                                - prod_srci_src_view.SRCI_1004_3000_account **traced above**
+                                - prod_mdl_trnsfrm.TX_account_hierarchy_hist_1004_3000_052_1
+                                    - prod_mdl_trnsfrm_view.TX_account_hierarchy_hist_1004_3000_052_1
+                                        - prod_srci_src_view.SRCI_1004_3000_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_hierarchy_hist_1005_3048_054
+                                - prod_srci_src_view.SRCI_1005_3048_accounts **traced above**
+                                - prod_mdl_trnsfrm.TX_account_hierarchy_hist_1005_3048_054_1
+                                    - prod_mdl_trnsfrm_view.TX_account_hierarchy_hist_1005_3048_054_1
+                                        - prod_srci_src_view.srci_1005_3048_accounts
+                                            - prod_srci.SRCI_1005_3048_accounts **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_hierarchy_hist_1006_3509_08O
+                                - prod_srci_src_view.SRCI_1006_3509_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_hierarchy_hist_1011_3172_723 [mds]
+                                - prod_srci_src_view.SRCI_1011_3172_vw_accounts_e_accountparent_leafmembers [mds] **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_hierarchy_hist_1011_4406_13P [mds]
+                                - prod_srci_src_view.SRCI_1011_4406_vw_accounts_e_corpsubsaccount_leafmembers [mds]
+                                    - prod_srci.SRCI_1011_4406_vw_accounts_e_corpsubsaccount_leafmembers [mds]
+                                        - prod_srci_trnsfrm_view.TX_1011_4406_vw_A_E_CSA_LM [mds]
+                                            - prod_stg_src_view.STG_1011_4406_vw_accounts_e_corpsubsaccount_leafmembers [mds]
+                                                - prod_stg.STG_1011_4406_vw_accounts_e_corpsubsaccount_leafmembers [mds]
+                                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_hierarchy_hist_1011_3171_722 [mds]
+                                - prod_srci_src_view.SRCI_1011_3171_vw_accounts_e_accountgp_leafmembers [mds] **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_hierarchy_hist_1011_3169_724 [mds]
+                                - prod_srci_src_view.SRCI_1011_3169_vw_accounts_e_account_leafmembers [mds] **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_hierarchy_hist_1011_3170_725 [mds]
+                                - prod_srci_src_view.SRCI_1011_3170_vw_accounts_e_accountggp_leafmembers [mds]
+                                    - prod_srci.SRCI_1011_3170_vw_accounts_e_accountggp_leafmembers [mds] **traced above**
+                - prod_prstn_trnsfrm_view.TX_dim_agency_genera_drv_delete_798
+                    - prod_prstn_src_view.dim_agency
+                        - prod_prstn.dim_agency **traced above**
+                    - prod_prstn_trnsfrm.dim_agency_genera_drv **traced above**
+            - prod_mdl_src_view.account_class_xref **traced above**
+            - prod_srci_src_view.SRCI_1054_4461_account **traced above**
+            - prod_mdl_src_view.ACCOUNT_GROUP **traced above**
+            - prod_mdl_src_view.ACCOUNT_ACCOUNT_GROUP_HIST **traced above**
+            - prod_mdl_src_view.account_type **traced above**
+            - prod_mdl_src_view.party_account_hist **traced above**
+            - prod_mdl_src_view.accounts **traced above**
+            - prod_mdl_src_view.account_hierarchy_hist **traced above**
+        - prod_prstn_trnsfrm_view.TX_dim_agency_operative_779
+            - prod_prstn_trnsfrm.dim_agency_operative_drv
+                - prod_prstn_trnsfrm_view.TX_dim_agency_operative_drv_insert_819
+                    - prod_mdl_src_view.accounts **traced above**
+                    - prod_mdl_src_view.account_class_xref **traced above**
+                    - prod_srci_src_view.SRCI_1054_4461_account **traced above**
+                    - prod_srci_src_view.SRCI_1005_3048_accounts_bt
+                        - prod_srci.SRCI_1005_3048_accounts **traced above**
+                        - prod_gcfr_view.GCFR_Process
+                            - prod_gcfr_table.GCFR_Process
+                    - prod_mdl_src_view.ACCOUNT_GROUP **traced above**
+                    - prod_mdl_src_view.ACCOUNT_ACCOUNT_GROUP_HIST **traced above**
+                    - prod_mdl_src_view.account_status_hist
+                        - prod_mdl.account_status_hist
+                            - prod_mdl_trnsfrm_view.TX_account_status_hist_1005_3048_070
+                                - prod_srci_src_view.SRCI_1005_3048_accounts **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_status_hist_1006_3509_08P
+                                - prod_srci_src_view.SRCI_1006_3509_account **traced above**
+                            - prod_mdl_trnsfrm_view.TX_account_status_hist_1045_4372_12J
+                                - prod_srci_src_view.srci_1045_4372_accounts **traced above**
+                    - prod_mdl_src_view.party_account_hist **traced above**
+                    - prod_mdl_src_view.account_hierarchy_hist **traced above**
+                - prod_prstn_trnsfrm_view.TX_dim_agency_operative_drv_delete_820
+                    - prod_prstn_src_view.dim_agency **traced above**
+                    - prod_prstn_trnsfrm.dim_agency_operative_drv **traced above**
+            - prod_mdl_src_view.account_class_xref **traced above**
+            - prod_srci_src_view.SRCI_1054_4461_account **traced above**
+            - prod_srci_src_view.SRCI_1005_3048_accounts_bt **traced above**
+            - prod_mdl_src_view.ACCOUNT_GROUP **traced above**
+            - prod_mdl_src_view.ACCOUNT_ACCOUNT_GROUP_HIST **traced above**
+            - prod_mdl_src_view.account_type **traced above**
+            - prod_mdl_src_view.account_status_hist **traced above**
+            - prod_mdl_src_view.party_account_hist **traced above**
+            - prod_mdl_src_view.accounts **traced above**
+            - prod_mdl_src_view.account_hierarchy_hist **traced above**
+        - prod_prstn_trnsfrm_view.TX_dim_agency_salesforce_15C
+            - prod_prstn_trnsfrm.dim_agency_salesforce_drv
+                - prod_prstn_trnsfrm_view.TX_dim_agency_salesforce_drv_insert_15D
+                    - prod_srci_src_view.SRCI_1054_4461_account **traced above**
+            - prod_srci_src_view.SRCI_1054_4461_account **traced above**
+            - prod_mdl_src_view.ACCOUNT_GROUP **traced above**
+            - prod_srci_view.SRCI_1054_4461_account
+                - prod_srci_src_view.SRCI_1054_4461_account **traced above**
+            - prod_srci_view.SRCI_1054_4466_user
+                - prod_srci_src_view.SRCI_1054_4466_user
+                    - prod_srci.SRCI_1054_4466_user
+                        - prod_srci_trnsfrm_view.TX_1054_4466_user
+                            - prod_stg_src_view.STG_1054_4466_user
+                                - prod_stg.STG_1054_4466_user
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+            - prod_mdl_src_view.PARTY_RELATED_HIST
+                - prod_mdl.party_related_hist
+                    - prod_mdl_trnsfrm_view.TX_party_related_hist_1004_3027_018
+                        - prod_srci_src_view.SRCI_1004_3027_user_workgroup
+                            - prod_srci.SRCI_1004_3027_user_workgroup
+                                - prod_srci_trnsfrm_view.TX_1004_3027_user_wrkgrp
+                                    - prod_stg_src_view.STG_1004_3027_user_workgroup
+                                        - prod_stg.STG_1004_3027_user_workgroup
+                                    - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                    - prod_mdl_trnsfrm_view.TX_party_related_hist_1004_3115_017
+                        - prod_srci_src_view.SRCI_1004_3115_sales_rep
+                            - prod_srci.SRCI_1004_3115_sales_rep
+                                - prod_srci_trnsfrm_view.TX_1004_3115_sales_rep
+                                    - prod_stg_src_view.STG_1004_3115_sales_rep
+                                        - prod_stg.STG_1004_3115_sales_rep
+                                    - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                                    - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                                    - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                    - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                    - prod_ref_src_view.BKEY_6019_LCTN **traced above**
+                    - prod_mdl_trnsfrm_view.TX_party_related_hist_1005_3096_020
+                        - prod_srci_src_view.SRCI_1005_3096_users
+                            - prod_srci.SRCI_1005_3096_users
+                                - prod_srci_trnsfrm_view.TX_1005_3096_user
+                                    - prod_stg_src_view.STG_1005_3096_users
+                                    - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                    - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                    - prod_mdl_trnsfrm_view.TX_party_related_hist_1005_3070_021
+                        - prod_srci_src_view.SRCI_1005_3070_user_organization_map
+                            - prod_srci.SRCI_1005_3070_user_organization_map
+                                - prod_srci_trnsfrm_view.TX_1005_3070_user_org_map
+                                    - prod_stg_src_view.STG_1005_3070_user_organization_map
+                                        - prod_stg.STG_1005_3070_user_organization_map
+                                    - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                    - prod_mdl_trnsfrm_view.TX_party_related_hist_1011_3176_784 [mds]
+                        - prod_srci_src_view.SRCI_1011_3176_vw_accounts_e_sourcesalesperson_leafmembers [mds]
+                            - prod_srci.SRCI_1011_3176_vw_accounts_e_sourcesalesperson_leafmembers [mds]
+                                - prod_srci_trnsfrm_view.TX_1011_3176_vw_A_E_SSP_LM [mds]
+                                    - prod_stg_src_view.STG_1011_3176_vw_accounts_e_sourcesalesperson_leafmembers [mds]
+                                        - prod_stg.STG_1011_3176_vw_accounts_e_sourcesalesperson_leafmembers [mds]
+                                    - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                    - prod_mdl_trnsfrm_view.TX_party_related_hist_1011_4065_0YV [mds]
+                        - prod_srci_src_view.SRCI_1011_4065_vw_party_e_sourceindividual_leafmembers [mds]
+                            - prod_srci.SRCI_1011_4065_vw_party_e_sourceindividual_leafmembers [mds]
+                                - prod_srci_trnsfrm_view.TX_1011_4065_P_E_SrcIndiv_LM [mds]
+                                    - prod_stg_src_view.STG_1011_4065_vw_party_e_sourceindividual_leafmembers [mds]
+                                        - prod_stg.STG_1011_4065_vw_party_e_sourceindividual_leafmembers [mds]
+                                    - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                    - prod_ref_src_view.BKEY_7351_CHART_OF_ACCOUNTS
+                                    - prod_ref_src_view.BKEY_5112_ADDRESS **traced above**
+                            - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+                    - prod_mdl_trnsfrm_view.TX_party_related_hist_1011_3175_716 [mds]
+                        - prod_srci_src_view.SRCI_1011_3175_vw_accounts_e_salesperson_leafmembers [mds]
+                            - prod_srci.SRCI_1011_3175_vw_accounts_e_salesperson_leafmembers [mds]
+                                - prod_srci_trnsfrm_view.TX_1011_3175_vw_A_E_SP_LM [mds]
+                                    - prod_stg_src_view.STG_1011_3175_vw_accounts_e_salesperson_leafmembers [mds]
+                                        - prod_stg.STG_1011_3175_vw_accounts_e_salesperson_leafmembers [mds]
+                                    - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                    - prod_mdl_trnsfrm_view.TX_party_related_hist_1011_3177_785 [mds]
+                        - prod_srci_src_view.SRCI_1011_3177_vw_accounts_e_sourceteam_leafmembers [mds]
+                            - prod_srci.SRCI_1011_3177_vw_accounts_e_sourceteam_leafmembers [mds]
+                                - prod_srci_trnsfrm_view.TX_1011_3177_vw_A_E_SRCT_LM [mds]
+                                    - prod_stg_src_view.STG_1011_3177_vw_accounts_e_sourceteam_leafmembers [mds]
+                                        - prod_stg.STG_1011_3177_vw_accounts_e_sourceteam_leafmembers [mds]
+                                    - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                    - prod_mdl_trnsfrm_view.TX_party_related_hist_1011_4064_0YS [mds]
+                        - prod_srci_src_view.SRCI_1011_4064_vw_party_e_individualgroupassignment_leafmembers [mds]
+                            - prod_srci.SRCI_1011_4064_vw_party_e_individualgroupassignment_leafmembers [mds]
+                                - prod_srci_trnsfrm_view.TX_1011_4064_P_E_InGrpAsg_LM [mds]
+                                    - prod_stg_src_view.STG_1011_4064_vw_party_e_individualgroupassignment_leafmembers [mds]
+                                        - prod_stg.STG_1011_4064_vw_party_e_individualgroupassignment_leafmembers [mds]
+                                    - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                    - prod_mdl_trnsfrm_view.TX_party_related_hist_1024_3735_0TZ
+                        - prod_mdl_src_view.party_related_hist_ni
+                            - prod_mdl.party_related_hist **traced above**
+                        - prod_srci_src_view.SRCI_1024_3737_scv_match_matrix_ffxid
+                            - prod_srci.SRCI_1024_3737_scv_match_matrix_ffxid
+                                - prod_srci_trnsfrm_view.TX_1024_3737_match_matrix
+                                    - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                    - prod_mdl_trnsfrm_view.TX_party_related_hist_1024_3735_0OY
+                        - prod_mdl_src_view.scv_match_golden_customer
+                            - prod_mdl.scv_match_golden_customer
+                                - prod_mdl_trnsfrm_view.TX_scv_match_golden_customer__17N
+                                    - prod_mdl_trnsfrm.scv_match_golden_customer_wrk01
+                                        - prod_mdl_trnsfrm_view.TX_scv_match_golden_customer_wrk01__17F
+                                            - prod_mdl_trnsfrm.scv_match_matrix_ffxid_wrk01
+                                                - prod_mdl_trnsfrm_view.TX_scv_match_matrix_ffxid_wrk01_insert_16N
+                                                    - prod_mdl_trnsfrm.scv_match_fill_merge_split_wrk01
+                                                        - prod_mdl_trnsfrm_view.TX_scv_match_fill_merge_split_wrk01_insert_16M
+                                                            - prod_mdl_trnsfrm.scv_match_matrix_merge_wrk01
+                                                                - prod_mdl_trnsfrm_view.TX_scv_match_matrix_merge_wrk01_insert_16L
+                                                                    - prod_mdl_trnsfrm_view.TX_scv_match_associate_merge__17C
+                                                                        - prod_mdl_trnsfrm.scv_match_associate_wrk01
+                                                                            - prod_mdl_trnsfrm_view.TX_scv_match_associate_wrk01__17A
+                                                                                - prod_mdl_trnsfrm.scv_match_matrix_associate_relationship_wrk01
+                                                                                    - prod_mdl_trnsfrm_view.TX_scv_match_matrix_associate_relationship_wrk01_insert_16Y
+                                                                                        - prod_mdl_trnsfrm.scv_match_matrix_associate_input_wrk01
+                                                                                            - prod_mdl_trnsfrm_view.TX_scv_match_matrix_associate_input_wrk01_insert_16X
+                                                                                                - prod_mdl_trnsfrm.scv_match_matrix_associate_wrk01
+                                                                                                    - prod_mdl_trnsfrm_view.TX_scv_match_matrix_associate_wrk01_insert_16K
+                                                                                                        - prod_mdl_trnsfrm.scv_customer_match_input_wrk01
+                                                                                                            - prod_mdl_trnsfrm_view.TX_scv_customer_match_input_wrk01_insert_16I
+                                                                                                                - prod_mdl_trnsfrm.scv_customer_match_input_preexclusion_wrk01
+                                                                                                                    - prod_mdl_trnsfrm_view.TX_scv_customer_match_input_preexclusion_wrk01_insert_16B
+                                                                                                                        - PROD_mdl_src_view.party_NI
+                                                                                                                            - prod_mdl.party
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1004_3115_008
+                                                                                                                                    - prod_srci_src_view.SRCI_1004_3115_sales_rep **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1004_3012_007
+                                                                                                                                    - prod_srci_src_view.SRCI_1004_3012_workgroup
+                                                                                                                                        - prod_srci.SRCI_1004_3012_workgroup
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1004_3012_wrkgrp
+                                                                                                                                                - prod_stg_src_view.STG_1004_3012_workgroup
+                                                                                                                                                    - prod_stg.STG_1004_3012_workgroup
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1004_3000_005
+                                                                                                                                    - prod_srci_src_view.SRCI_1004_3000_account **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1004_3013_006
+                                                                                                                                    - prod_srci_src_view.SRCI_1004_3013_users
+                                                                                                                                        - prod_srci.SRCI_1004_3013_users
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1004_3013_users
+                                                                                                                                                - prod_stg_src_view.STG_1004_3013_users
+                                                                                                                                                    - prod_stg.STG_1004_3013_users
+                                                                                                                                                - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_6019_LCTN **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1005_3049_002
+                                                                                                                                    - prod_srci_src_view.SRCI_1005_3049_organization
+                                                                                                                                        - prod_srci.SRCI_1005_3049_organization
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1005_3049_org
+                                                                                                                                                - prod_stg_src_view.STG_1005_3049_organization
+                                                                                                                                                    - prod_stg.STG_1005_3049_organization
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                                - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5145_AGREEMENT_TERM
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1005_3096_004
+                                                                                                                                    - prod_srci_src_view.SRCI_1005_3096_users **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1005_3084_003
+                                                                                                                                    - prod_srci_src_view.SRCI_1005_3084_contacts
+                                                                                                                                        - prod_srci.SRCI_1005_3084_contacts
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1005_3084_cntct
+                                                                                                                                                - prod_stg_src_view.STG_1005_3084_contacts
+                                                                                                                                                    - prod_stg.STG_1005_3084_contacts
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                                                                                                                                                - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1005_3048_001
+                                                                                                                                    - prod_srci_src_view.SRCI_1005_3048_accounts **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1006_3517_943
+                                                                                                                                    - prod_srci_src_view.srci_1006_3517_contact
+                                                                                                                                        - prod_srci.SRCI_1006_3517_contact **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1011_4065_0YK [mds]
+                                                                                                                                    - prod_srci_src_view.SRCI_1011_4065_vw_party_e_sourceindividual_leafmembers [mds] **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1011_3178_712 [mds]
+                                                                                                                                    - prod_srci_src_view.SRCI_1011_3178_vw_accounts_e_team_leafmembers [mds]
+                                                                                                                                        - prod_srci.SRCI_1011_3178_vw_accounts_e_team_leafmembers [mds]
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1011_3178_vw_A_E_TEAM_LM [mds]
+                                                                                                                                                - prod_stg_src_view.STG_1011_3178_vw_accounts_e_team_leafmembers [mds]
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                                - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                                                                                                                                        - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1011_3175_713 [mds]
+                                                                                                                                    - prod_srci_src_view.SRCI_1011_3175_vw_accounts_e_salesperson_leafmembers [mds] **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1011_4063_0YJ [mds]
+                                                                                                                                    - prod_srci_src_view.SRCI_1011_4063_vw_party_e_individual_leafmembers [mds]
+                                                                                                                                        - prod_srci.SRCI_1011_4063_vw_party_e_individual_leafmembers [mds]
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1011_4063_vw_P_E_Indiv_LM [mds]
+                                                                                                                                                - prod_stg_src_view.STG_1011_4063_vw_party_e_individual_leafmembers [mds]
+                                                                                                                                                    - prod_stg.STG_1011_4063_vw_party_e_individual_leafmembers [mds]
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1011_4062_0YI [mds]
+                                                                                                                                    - prod_srci_src_view.SRCI_1011_4062_vw_party_e_group_leafmembers [mds]
+                                                                                                                                        - prod_srci.SRCI_1011_4062_vw_party_e_group_leafmembers [mds]
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1011_4062_vw_P_E_Grp_LM [mds]
+                                                                                                                                                - prod_stg_src_view.STG_1011_4062_vw_party_e_group_leafmembers [mds]
+                                                                                                                                                    - prod_stg.STG_1011_4062_vw_party_e_group_leafmembers [mds]
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1011_3205_840 [mds]
+                                                                                                                                    - prod_srci_src_view.SRCI_1011_3205_vw_accounts_e_team_consolidatedmembers [mds]
+                                                                                                                                        - prod_srci.SRCI_1011_3205_vw_accounts_e_team_consolidatedmembers [mds]
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1011_3205_vw_A_E_TEAM_CM [mds]
+                                                                                                                                                - prod_stg_src_view.STG_1011_3205_vw_accounts_e_team_consolidatedmembers [mds]
+                                                                                                                                                    - prod_stg.STG_1011_3205_vw_accounts_e_team_consolidatedmembers [mds]
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1015_3410_951
+                                                                                                                                    - prod_srci_src_view.SRCI_1015_3410_hmoccupant
+                                                                                                                                        - prod_srci.SRCI_1015_3410_hmoccupant
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1015_3410_hmOccupan
+                                                                                                                                                - prod_stg_src_view.STG_1015_3410_hmoccupant
+                                                                                                                                                    - prod_stg.STG_1015_3410_hmoccupant
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                                - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5112_ADDRESS **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1023_3723_0OB
+                                                                                                                                    - prod_srci_src_view.SRCI_1023_3723_mplservices_userprofile
+                                                                                                                                        - prod_srci.SRCI_1023_3723_mplservices_userprofile
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1023_3723_UserProfile
+                                                                                                                                                - prod_stg_src_view.STG_1023_3723_mplservices_userprofile
+                                                                                                                                                    - prod_stg.STG_1023_3723_mplservices_userprofile
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1024_3735_0OW
+                                                                                                                                    - prod_mdl_src_view.scv_match_golden_customer **traced above**
+                                                                                                                                    - prod_mdl_src_view.party
+                                                                                                                                        - prod_mdl.party **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1031_3816_0YY
+                                                                                                                                    - prod_srci_src_view.SRCI_1031_3816_viewadusers
+                                                                                                                                        - prod_srci.SRCI_1031_3816_viewadusers
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1031_3816_viewAdUsers
+                                                                                                                                                - prod_stg_src_view.STG_1031_3816_viewadusers
+                                                                                                                                                    - prod_stg.STG_1031_3816_viewadusers
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1045_4373_11T
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4373_accounts_identities **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1045_4372_11S
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4372_accounts
+                                                                                                                                        - prod_srci.SRCI_1045_4372_accounts **traced above**
+                                                                                                                                        - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_1085_4645_22D
+                                                                                                                                    - prod_srci_src_view.SRCI_1085_4645_swg_audit
+                                                                                                                                        - prod_srci.SRCI_1085_4645_swg_audit
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1085_4645_swg_audit
+                                                                                                                                                - prod_stg_src_view.STG_1085_4645_swg_audit
+                                                                                                                                                    - prod_stg.STG_1085_4645_swg_audit
+                                                                                                                                                - prod_ref_src_view.BKEY_6841_SUBSCRIPTION_ORDER
+                                                                                                                                                - prod_ref_src_view.BKEY_6835_SUBSCRIPTION **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_7317_CHARGE_ACTIVITY
+                                                                                                                                                - prod_ref_src_view.BKEY_5112_ADDRESS **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                        - prod_srci.SRCI_1011_3728_vw_product_e_subscriptionrateplans_leafmembers [mds]
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1011_3728_vw_P_E_SubRP_LM [mds]
+                                                                                                                                                - prod_stg_src_view.STG_1011_3728_vw_product_e_subscriptionrateplans_leafmembers [mds]
+                                                                                                                                                - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5923_ITEM_GRP
+                                                                                                                                                - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                                                                                                                - PROD_mdl_trnsfrm_view.TX_party_1088_4662_22X
+                                                                                                                                    - PROD_srci_src_view.SRCI_1088_4662_store_purchase_export_data
+                                                                                                                                        - prod_srci.SRCI_1088_4662_store_purchase_export_data
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1088_4662_store_purchase_export_data
+                                                                                                                                                - prod_stg_src_view.STG_1088_4662_store_purchase_export_data
+                                                                                                                                                    - prod_stg.STG_1088_4662_store_purchase_export_data
+                                                                                                                                                - prod_ref_src_view.BKEY_6835_SUBSCRIPTION **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5112_ADDRESS **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                        - prod_srci.SRCI_1011_3728_vw_product_e_subscriptionrateplans_leafmembers [mds] **traced above**
+                                                                                                                        - PROD_mdl_src_view.party_ni
+                                                                                                                            - prod_mdl.party **traced above**
+                                                                                                                        - PROD_mdl_src_view.address_related_hist_NI
+                                                                                                                            - prod_mdl.address_related_hist
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_address_related_hist_1024_3729_0OA
+                                                                                                                                    - prod_srci_src_view.SRCI_1024_3729_scv_customer_street_address
+                                                                                                                                        - prod_srci.SRCI_1024_3729_scv_customer_street_address
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1024_3729_Cust_streetaddr
+                                                                                                                                                - prod_ref_src_view.BKEY_5112_ADDRESS **traced above**
+                                                                                                                                                - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5392_CITY **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5460_COUNTY **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_address_related_hist_1058_4477_15U
+                                                                                                                        - PROD_mdl_src_view.party_address_hist_NI
+                                                                                                                            - prod_mdl.party_address_hist
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1006_3517_05K
+                                                                                                                                    - prod_srci_src_view.SRCI_1006_3517_contact **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1006_3517_05O
+                                                                                                                                    - prod_srci_src_view.SRCI_1006_3517_contact **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1006_3517_05L
+                                                                                                                                    - prod_srci_src_view.SRCI_1006_3517_contact **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1006_3517_05J
+                                                                                                                                    - prod_srci_src_view.SRCI_1006_3517_contact **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1006_3517_05M
+                                                                                                                                    - prod_srci_src_view.SRCI_1006_3517_contact **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1006_3517_05N
+                                                                                                                                    - prod_srci_src_view.SRCI_1006_3517_contact **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1015_3410_05V
+                                                                                                                                    - prod_srci_src_view.SRCI_1015_3410_hmoccupant **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1015_3411_05U
+                                                                                                                                    - prod_srci_src_view.SRCI_1015_3411_hmoccupantaddress
+                                                                                                                                        - prod_srci.SRCI_1015_3411_hmoccupantaddress
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1015_3411_hmOcupntAddrs
+                                                                                                                                                - prod_stg_src_view.STG_1015_3411_hmoccupantaddress
+                                                                                                                                                    - prod_stg.STG_1015_3411_hmoccupantaddress
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                                - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+                                                                                                                                    - prod_srci_src_view.srci_1015_3579_hmaddress
+                                                                                                                                        - prod_srci.SRCI_1015_3579_hmaddress
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1015_3579_hmAddress
+                                                                                                                                                - prod_stg_src_view.STG_1015_3579_hmaddress
+                                                                                                                                                    - prod_stg.STG_1015_3579_hmaddress
+                                                                                                                                                - prod_ref_src_view.BKEY_5392_CITY **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5112_ADDRESS **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5460_COUNTY **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                                - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+                                                                                                                                    - prod_srci_view.SRCI_1015_3393_cmsubscription
+                                                                                                                                        - prod_srci.SRCI_1015_3393_cmsubscription **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1015_3413_05X
+                                                                                                                                    - prod_srci_src_view.SRCI_1015_3413_hmoccupantphone
+                                                                                                                                        - prod_srci.SRCI_1015_3413_hmoccupantphone
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1015_3413_hmOcupntPhone
+                                                                                                                                                - prod_stg_src_view.STG_1015_3413_hmoccupantphone
+                                                                                                                                                    - prod_stg.STG_1015_3413_hmoccupantphone
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                                - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5112_ADDRESS **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1015_3412_05W
+                                                                                                                                    - prod_srci_src_view.SRCI_1015_3412_hmoccupantemail
+                                                                                                                                        - prod_srci.SRCI_1015_3412_hmoccupantemail
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1015_3412_hmOcupntEmail
+                                                                                                                                                - prod_stg_src_view.STG_1015_3412_hmoccupantemail
+                                                                                                                                                    - prod_stg.STG_1015_3412_hmoccupantemail
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5112_ADDRESS **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1024_3735_0OM
+                                                                                                                                    - prod_mdl_src_view.scv_match_golden_customer **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1024_3735_0OQ
+                                                                                                                                    - prod_mdl_src_view.scv_match_golden_customer **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1024_3735_0OV
+                                                                                                                                    - prod_mdl_src_view.scv_match_golden_customer **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1024_3735_0OT
+                                                                                                                                    - prod_mdl_src_view.scv_match_golden_customer **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1024_3735_0OU
+                                                                                                                                    - prod_mdl_src_view.scv_match_golden_customer **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1024_3735_0OP
+                                                                                                                                    - prod_mdl_src_view.scv_match_golden_customer **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1024_3735_0OR
+                                                                                                                                    - prod_mdl_src_view.scv_match_golden_customer **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1024_3735_0ON
+                                                                                                                                    - prod_mdl_src_view.scv_match_golden_customer **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1024_3735_0OO
+                                                                                                                                    - prod_mdl_src_view.scv_match_golden_customer **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1024_3735_0OS
+                                                                                                                                    - prod_mdl_src_view.scv_match_golden_customer **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1045_4383_13F
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4383_accounts_profile_phones
+                                                                                                                                        - prod_srci.SRCI_1045_4383_accounts_profile_phones
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1045_4383_prof_phones
+                                                                                                                                                - prod_stg_src_view.STG_1045_4383_accounts_profile_phones
+                                                                                                                                                    - prod_stg.STG_1045_4383_accounts_profile_phones
+                                                                                                                                                - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5112_ADDRESS **traced above**
+                                                                                                                                        - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4373_accounts_identities **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1045_4383_12F
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4379_accounts_identities_phones
+                                                                                                                                        - prod_srci.SRCI_1045_4379_accounts_identities_phones
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1045_4379_accids_phones
+                                                                                                                                                - prod_stg_src_view.STG_1045_4379_accounts_identities_phones
+                                                                                                                                                    - prod_stg.STG_1045_4379_accounts_identities_phones
+                                                                                                                                                - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5112_ADDRESS **traced above**
+                                                                                                                                        - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4373_accounts_identities **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1045_4372_12C
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4372_accounts **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1045_4383_13D
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4383_accounts_profile_phones **traced above**
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4373_accounts_identities **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1045_4373_12D
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4373_accounts_identities **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1045_4379_13C
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4379_accounts_identities_phones **traced above**
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4373_accounts_identities **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1045_4379_12E
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4379_accounts_identities_phones **traced above**
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4373_accounts_identities **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1045_4383_13E
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4383_accounts_profile_phones **traced above**
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4373_accounts_identities **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_address_hist_1085_4645_22G
+                                                                                                                                    - prod_srci_src_view.SRCI_1085_4645_swg_audit **traced above**
+                                                                                                                                - PROD_mdl_trnsfrm_view.TX_party_address_hist_1088_4662_23A
+                                                                                                                                    - PROD_srci_src_view.SRCI_1088_4662_store_purchase_export_data **traced above**
+                                                                                                                        - PROD_mdl_src_view.party_related_hist_ni
+                                                                                                                            - prod_mdl.party_related_hist **traced above**
+                                                                                                                        - PROD_mdl_src_view.country
+                                                                                                                            - prod_ref.BMAP_STANDARD_MAP **traced above**
+                                                                                                                            - prod_ref.BMAP_REFERENCE_DESCRIPTION **traced above**
+                                                                                                                        - PROD_mdl_src_view.city_NI
+                                                                                                                            - prod_mdl.city
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_city_1006_3517_06K
+                                                                                                                                    - prod_srci_src_view.SRCI_1006_3517_contact **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_city_1015_3582_06N
+                                                                                                                                    - prod_srci_src_view.SRCI_1015_3582_hmcity
+                                                                                                                                        - prod_srci.SRCI_1015_3582_hmcity
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1015_3582_hmCity
+                                                                                                                                                - prod_stg_src_view.STG_1015_3582_hmcity
+                                                                                                                                                    - prod_stg.STG_1015_3582_hmcity
+                                                                                                                                                - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5392_CITY **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5460_COUNTY **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_city_1015_3579_0SJ
+                                                                                                                                    - prod_srci_src_view.SRCI_1015_3579_hmaddress
+                                                                                                                                        - prod_srci.SRCI_1015_3579_hmaddress **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_city_1058_4477_15V
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_city_1024_3729_0P2
+                                                                                                                                    - prod_srci_src_view.SRCI_1024_3729_scv_customer_street_address **traced above**
+                                                                                                                        - PROD_mdl_src_view.party_address_role_type
+                                                                                                                            - prod_ref.BMAP_STANDARD_MAP **traced above**
+                                                                                                                            - prod_ref.BMAP_REFERENCE_DESCRIPTION **traced above**
+                                                                                                                        - PROD_mdl_src_view.electronic_address_hist_NI
+                                                                                                                            - prod_mdl.electronic_address_hist
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_electronic_address_hist_1006_3517_04H
+                                                                                                                                    - prod_srci_src_view.SRCI_1006_3517_contact **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_electronic_address_hist_1006_3517_04I
+                                                                                                                                    - prod_srci_src_view.SRCI_1006_3517_contact **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_electronic_address_hist_1015_3410_04L
+                                                                                                                                    - prod_srci_src_view.SRCI_1015_3410_hmoccupant **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_electronic_address_hist_1015_3412_04M
+                                                                                                                                    - prod_srci_src_view.SRCI_1015_3412_hmoccupantemail **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_electronic_address_hist__14X
+                                                                                                                                    - prod_mdl_src_view.electronic_address_hist_NI
+                                                                                                                                        - prod_mdl.electronic_address_hist **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_electronic_address_hist_1024_3737_0XA
+                                                                                                                                    - prod_mdl_src_view.scv_match_matrix_ffxid
+                                                                                                                                        - prod_mdl.scv_match_matrix_ffxid
+                                                                                                                                            - prod_mdl_trnsfrm_view.TX_scv_match_matrix_ffxid__17O
+                                                                                                                                                - prod_mdl_trnsfrm.scv_match_matrix_ffxid_wrk01 **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                    - prod_mdl_src_view.electronic_address_hist_NI **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_electronic_address_hist_1024_3730_0PP
+                                                                                                                                    - prod_srci_src_view.SRCI_1024_3730_scv_customer_electronic_address
+                                                                                                                                        - prod_srci.SRCI_1024_3730_scv_customer_electronic_address
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1024_3730_Cust_emailadd
+                                                                                                                                    - prod_mdl_src_view.electronic_address_hist_NI **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_electronic_address_hist_1045_4372_12A
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4372_accounts **traced above**
+                                                                                                                                    - prod_srci_src_view.srci_1045_4372_accounts **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_electronic_address_hist_1045_4373_12B
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4373_accounts_identities **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_electronic_address_hist_1085_4645_22C
+                                                                                                                                    - prod_srci_src_view.SRCI_1085_4645_swg_audit **traced above**
+                                                                                                                                    - prod_mdl_src_view.electronic_address_hist_NI **traced above**
+                                                                                                                                - PROD_mdl_trnsfrm_view.TX_electronic_address_hist_1088_4662_22W
+                                                                                                                                    - prod_srci_src_view.SRCI_1088_4662_store_purchase_export_data
+                                                                                                                                        - prod_srci.SRCI_1088_4662_store_purchase_export_data **traced above**
+                                                                                                                                        - prod_srci.SRCI_1011_3728_vw_product_e_subscriptionrateplans_leafmembers [mds] **traced above**
+                                                                                                                                    - prod_mdl_src_view.electronic_address_hist_NI **traced above**
+                                                                                                                        - PROD_mdl_src_view.telephone_address_hist_NI
+                                                                                                                            - prod_mdl.telephone_address_hist
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_telephone_address_hist_1006_3517_06C
+                                                                                                                                    - prod_srci_src_view.SRCI_1006_3517_contact **traced above**
+                                                                                                                                    - prod_mdl_src_view.telephone_address_hist_NI
+                                                                                                                                        - prod_mdl.telephone_address_hist **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_telephone_address_hist_1006_3517_06B
+                                                                                                                                    - prod_srci_src_view.SRCI_1006_3517_contact **traced above**
+                                                                                                                                    - prod_mdl_src_view.telephone_address_hist_NI **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_telephone_address_hist_1006_3517_06D
+                                                                                                                                    - prod_srci_src_view.SRCI_1006_3517_contact **traced above**
+                                                                                                                                    - prod_mdl_src_view.telephone_address_hist_NI **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_telephone_address_hist_1015_3413_06J
+                                                                                                                                    - prod_srci_src_view.SRCI_1015_3413_hmoccupantphone **traced above**
+                                                                                                                                    - prod_mdl_src_view.telephone_address_hist_NI **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_telephone_address_hist_1024_3732_0O9
+                                                                                                                                    - prod_srci_src_view.SRCI_1024_3732_scv_customer_phone
+                                                                                                                                        - prod_srci.SRCI_1024_3732_scv_customer_phone
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1024_3732_Cust_phone
+                                                                                                                                    - prod_mdl_src_view.telephone_address_hist_NI **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_telephone_address_hist__15B
+                                                                                                                                    - prod_mdl_src_view.telephone_address_hist_NI **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_telephone_address_hist_1024_3737_0XB
+                                                                                                                                    - prod_mdl_src_view.scv_match_matrix_ffxid **traced above**
+                                                                                                                                    - prod_mdl_src_view.telephone_address_hist_NI **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_telephone_address_hist_1045_4379_12G
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4379_accounts_identities_phones **traced above**
+                                                                                                                                    - prod_mdl_src_view.telephone_address_hist_NI **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_telephone_address_hist_1045_4383_12H
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4383_accounts_profile_phones **traced above**
+                                                                                                                                    - prod_mdl_src_view.telephone_address_hist_NI **traced above**
+                                                                                                                        - PROD_mdl_src_view.data_source_type
+                                                                                                                            - prod_ref.BMAP_STANDARD_MAP **traced above**
+                                                                                                                            - prod_ref.BMAP_REFERENCE_DESCRIPTION **traced above**
+                                                                                                                        - PROD_mdl_src_view.street_suffix
+                                                                                                                            - prod_ref.BMAP_STANDARD_MAP **traced above**
+                                                                                                                            - prod_ref.BMAP_REFERENCE_DESCRIPTION **traced above**
+                                                                                                                        - PROD_mdl_src_view.individual_name_hist_NI
+                                                                                                                            - prod_mdl.individual_name_hist
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1004_3013_027
+                                                                                                                                    - prod_srci_src_view.SRCI_1004_3013_users **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1004_3013_026
+                                                                                                                                    - prod_srci_src_view.SRCI_1004_3013_users **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1004_3115_028
+                                                                                                                                    - prod_srci_src_view.SRCI_1004_3115_sales_rep **traced above**
+                                                                                                                                    - prod_srci_src_view.SRCI_1004_3013_users **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1005_3096_030
+                                                                                                                                    - prod_srci_src_view.SRCI_1005_3096_users **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1005_3084_029
+                                                                                                                                    - prod_srci_src_view.SRCI_1005_3084_contacts **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1006_3517_00K
+                                                                                                                                    - prod_srci_src_view.srci_1006_3517_contact **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1011_4065_0YO [mds]
+                                                                                                                                    - prod_srci_src_view.SRCI_1011_4065_vw_party_e_sourceindividual_leafmembers [mds] **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1011_4063_0YN [mds]
+                                                                                                                                    - prod_srci_src_view.SRCI_1011_4063_vw_party_e_individual_leafmembers [mds] **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1011_3175_717 [mds]
+                                                                                                                                    - prod_srci_src_view.SRCI_1011_3175_vw_accounts_e_salesperson_leafmembers [mds] **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1015_3410_955
+                                                                                                                                    - prod_srci_src_view.SRCI_1015_3410_hmoccupant **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1023_3723_0OD
+                                                                                                                                    - prod_srci_src_view.SRCI_1023_3723_mplservices_userprofile **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1024_3737_0X9
+                                                                                                                                    - prod_mdl_src_view.scv_match_matrix_ffxid **traced above**
+                                                                                                                                    - prod_mdl_src_view.individual_name_hist_NI
+                                                                                                                                        - prod_mdl.individual_name_hist **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist__15J
+                                                                                                                                    - prod_mdl_src_view.individual_name_hist_NI **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1024_3731_0O6
+                                                                                                                                    - prod_srci_src_view.SRCI_1024_3731_scv_customer_party_name
+                                                                                                                                        - prod_srci.SRCI_1024_3731_scv_customer_party_name
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1024_3731_cust_party_name
+                                                                                                                                    - prod_mdl_src_view.individual_name_hist_NI **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1031_3816_0Z2
+                                                                                                                                    - prod_srci_src_view.SRCI_1031_3816_viewadusers **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1031_3816_0Z1
+                                                                                                                                    - prod_srci_src_view.SRCI_1031_3816_viewadusers **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1031_3816_0Z3
+                                                                                                                                    - prod_srci_src_view.SRCI_1031_3816_viewadusers **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1031_3816_0Z4
+                                                                                                                                    - prod_srci_src_view.SRCI_1031_3816_viewadusers **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1045_4373_11X
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4373_accounts_identities **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1045_4372_11W
+                                                                                                                                    - prod_srci_src_view.SRCI_1045_4372_accounts **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_individual_name_hist_1085_4645_22F
+                                                                                                                                    - prod_srci_src_view.SRCI_1085_4645_swg_audit **traced above**
+                                                                                                                        - PROD_mdl_src_view.party_account_hist_ni
+                                                                                                                            - prod_mdl.party_account_hist **traced above**
+                                                                                                                        - PROD_mdl_src_view.account_status_hist_ni
+                                                                                                                            - prod_mdl.account_status_hist **traced above**
+                                                                                                                        - PROD_mdl_src_view.street_address_NI
+                                                                                                                            - prod_mdl.street_address
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_street_address_1006_3517_05C
+                                                                                                                                    - prod_srci_src_view.SRCI_1006_3517_contact **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_street_address_1015_3579_05F
+                                                                                                                                    - prod_srci_src_view.SRCI_1015_3579_hmaddress **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_street_address_1024_3729_0O7
+                                                                                                                                    - prod_srci_src_view.SRCI_1024_3729_scv_customer_street_address **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_street_address_1058_4477_15W
+                                                                                                                                    - prod_srci_src_view.SRCI_1058_4605_street_address_dpid
+                                                                                                                                        - prod_srci.SRCI_1058_4605_street_address_dpid
+                                                                                                                - prod_mdl_trnsfrm.scv_customer_name_exclusion_wrk02
+                                                                                                                    - prod_mdl_trnsfrm_view.TX_scv_customer_name_exclusion_wrk02_insert_16D
+                                                                                                                        - prod_mdl_trnsfrm.scv_customer_name_exclusion_wrk01
+                                                                                                                            - prod_mdl_trnsfrm_view.TX_scv_customer_name_exclusion_wrk01_insert_16C
+                                                                                                                                - prod_mdl_trnsfrm_view.scv_comparator_list
+                                                                                                                - prod_mdl_trnsfrm.scv_customer_email_exclusion_wrk02
+                                                                                                                    - prod_mdl_trnsfrm_view.TX_scv_customer_email_exclusion_wrk02_insert_16F
+                                                                                                                        - prod_mdl_trnsfrm.scv_customer_email_exclusion_wrk01
+                                                                                                                            - prod_mdl_trnsfrm_view.TX_scv_customer_email_exclusion_wrk01_insert_16E
+                                                                                                                                - prod_mdl_trnsfrm_view.scv_comparator_list **traced above**
+                                                                                                                - prod_mdl_trnsfrm.scv_customer_phone_exclusion_wrk02
+                                                                                                                    - prod_mdl_trnsfrm_view.TX_scv_customer_phone_exclusion_wrk02_insert_16H
+                                                                                                                        - prod_mdl_trnsfrm.scv_customer_phone_exclusion_wrk01
+                                                                                                                            - prod_mdl_trnsfrm_view.TX_scv_customer_phone_exclusion_wrk01_insert_16G
+                                                                                                                                - prod_mdl_trnsfrm_view.scv_comparator_list **traced above**
+                                                                                                                - prod_mdl_trnsfrm.scv_customer_address_exclusion_wrk01
+                                                                                                                    - prod_mdl_trnsfrm_view.TX_scv_customer_address_exclusion_wrk01__17P
+                                                                                                                        - prod_mdl_trnsfrm.scv_customer_match_input_preexclusion_wrk01 **traced above**
+                                                                                                                        - prod_mdl_trnsfrm_view.scv_comparator_list **traced above**
+                                                                                                        - prod_mdl_trnsfrm.scv_match_email_address
+                                                                                                            - prod_mdl_trnsfrm_view.TX_scv_match_email_address__16T
+                                                                                                                - prod_mdl_trnsfrm.scv_source_system_score
+                                                                                                        - prod_mdl_trnsfrm.scv_match_name_phone
+                                                                                                            - prod_mdl_trnsfrm_view.TX_scv_name_phone_matching__15Q
+                                                                                                                - prod_mdl_trnsfrm.scv_dimunitivename_source_system_wrk01
+                                                                                                                    - prod_mdl_trnsfrm_view.TX_scv_dimunitivename_source_system_wrk01_insert_15O
+                                                                                                                        - prod_mdl_trnsfrm.scv_dimunitivename_source_system_wrk02
+                                                                                                                            - prod_mdl_trnsfrm_view.TX_scv_dimunitivename_source_system_wrk02__17H
+                                                                                                                                - prod_mdl_trnsfrm.scv_source_system_score **traced above**
+                                                                                                                - prod_mdl_trnsfrm.scv_name_phone_matching_wrk01
+                                                                                                                    - prod_mdl_trnsfrm_view.TX_scv_name_phone_matching_wrk01_insert_15P
+                                                                                                                        - prod_mdl_trnsfrm.scv_dimunitivename_source_system_wrk01 **traced above**
+                                                                                                        - prod_mdl_trnsfrm.scv_match_name_email
+                                                                                                            - prod_mdl_trnsfrm_view.TX_scv_name_email_matching__15S
+                                                                                                                - prod_mdl_trnsfrm.scv_dimunitivename_source_system_wrk01 **traced above**
+                                                                                                                - prod_mdl_trnsfrm.scv_name_email_matching_wrk01
+                                                                                                                    - prod_mdl_trnsfrm_view.TX_scv_name_email_matching_wrk01_insert_15R
+                                                                                                                        - prod_mdl_trnsfrm.scv_dimunitivename_source_system_wrk01 **traced above**
+                                                                                                        - prod_mdl_trnsfrm.scv_match_external_sourcesystem
+                                                                                                            - prod_mdl_trnsfrm_view.TX_scv_match_external_source_system__16P
+                                                                                                                - prod_mdl_trnsfrm.scv_external_source_system_wrk01
+                                                                                                                    - prod_mdl_trnsfrm_view.TX_scv_external_source_system_wrk01_insert_16O
+                                                                                                                        - prod_mdl_src_view.subscription_related_hist_NI
+                                                                                                                            - prod_mdl.subscription_related_hist
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_subscription_related_hist_1006_3560_0D6
+                                                                                                                                    - prod_SRCI_src_view.SRCI_1006_3560_subscription
+                                                                                                                                        - prod_srci.SRCI_1006_3560_subscription
+                                                                                                                                            - prod_srci_trnsfrm_view.TX_1006_3560_subscription
+                                                                                                                                                - prod_stg_src_view.STG_1006_3560_subscription
+                                                                                                                                                    - prod_stg.STG_1006_3560_subscription
+                                                                                                                                                - prod_ref_src_view.BKEY_6489_PROMOTION
+                                                                                                                                                - prod_ref_src_view.BKEY_5316_CAMPAIGN **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_6835_SUBSCRIPTION **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                                                                                                                                                - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                                                                                                                                                - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_subscription_related_hist_1006_3560_0OZ
+                                                                                                                                    - prod_SRCI_src_view.SRCI_1006_3560_subscription **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_subscription_related_hist_1015_3393_0F8
+                                                                                                                                    - prod_srci_src_view.SRCI_1015_3393_cmsubscription **traced above**
+                                                                                                                                    - prod_srci_src_view.srci_1006_3560_subscription
+                                                                                                                                        - prod_srci.SRCI_1006_3560_subscription **traced above**
+                                                                                                                        - prod_mdl_src_view.party_subscription_hist_NI
+                                                                                                                            - prod_mdl.party_subscription_hist
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_subscription_hist_1006_3560_0D8
+                                                                                                                                    - prod_SRCI_src_view.SRCI_1006_3560_subscription **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_subscription_hist_1006_3560_0D9
+                                                                                                                                    - prod_SRCI_src_view.SRCI_1006_3560_subscription **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_subscription_hist_1015_3393_0F5
+                                                                                                                                    - prod_srci_src_view.SRCI_1015_3393_cmsubscription **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_party_subscription_hist_1015_3393_0F4
+                                                                                                                                    - prod_srci_src_view.SRCI_1015_3393_cmsubscription **traced above**
+                                                                                                                        - prod_mdl_src_view.account_subscription_hist_NI
+                                                                                                                            - prod_mdl.account_subscription_hist
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_account_subscription_hist_1006_3560_0DA
+                                                                                                                                    - prod_SRCI_src_view.SRCI_1006_3560_subscription **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_account_subscription_hist_1006_3560_0DB
+                                                                                                                                    - prod_SRCI_src_view.SRCI_1006_3560_subscription **traced above**
+                                                                                                                                - prod_mdl_trnsfrm_view.TX_account_subscription_hist_1015_3393_0F6
+                                                                                                                                    - prod_srci_src_view.SRCI_1015_3393_cmsubscription **traced above**
+                                                                                                                        - prod_mdl_src_view.party_account_hist_NI
+                                                                                                                            - prod_mdl.party_account_hist **traced above**
+                                                                                                                        - prod_mdl_src_view.accounts_NI
+                                                                                                                            - prod_mdl.accounts **traced above**
+                                                                                                        - prod_mdl_trnsfrm.scv_match_email_phone
+                                                                                                            - prod_mdl_trnsfrm_view.TX_scv_match_email_phone__16U
+                                                                                                                - prod_mdl_trnsfrm.scv_source_system_score **traced above**
+                                                                                                        - prod_mdl_trnsfrm.scv_match_name_address
+                                                                                                            - prod_mdl_trnsfrm_view.TX_scv_name_address_matching__15Z
+                                                                                                                - prod_mdl_trnsfrm.scv_dimunitivename_source_system_wrk01 **traced above**
+                                                                                                                - prod_mdl_trnsfrm.scv_name_address_matching_wrk01
+                                                                                                                    - prod_mdl_trnsfrm_view.TX_scv_name_address_matching_wrk01_insert_15Y
+                                                                                                                        - prod_mdl_trnsfrm.scv_dimunitivename_source_system_wrk01 **traced above**
+                                                                                                        - prod_mdl_trnsfrm.scv_match_email
+                                                                                                            - prod_mdl_trnsfrm_view.TX_scv_match_email__16V
+                                                                                                                - prod_mdl_trnsfrm.scv_source_system_score **traced above**
+                                                                                - prod_mdl_trnsfrm.scv_match_matrix_associate_wrk01 **traced above**
+                                                                            - prod_mdl_trnsfrm_view.TX_scv_match_associate_wrk01__17B
+                                                                                - prod_mdl_trnsfrm.scv_match_matrix_associate_relationship_wrk01 **traced above**
+                                                                                - prod_mdl_trnsfrm.scv_match_matrix_associate_input_wrk01 **traced above**
+                                                                                - prod_mdl_trnsfrm.scv_match_matrix_associate_wrk01 **traced above**
+                                                                        - prod_mdl_trnsfrm.scv_match_matrix_nonassociate_wrk01
+                                                                            - prod_mdl_trnsfrm_view.TX_scv_match_matrix_nonassociate_wrk01_insert_16J
+                                                                                - prod_mdl_trnsfrm.scv_match_associate_wrk01 **traced above**
+                                                                                - prod_mdl_trnsfrm.scv_match_email_address **traced above**
+                                                                                - prod_mdl_trnsfrm.scv_customer_match_input_wrk01 **traced above**
+                                                                                - prod_mdl_trnsfrm.scv_match_name_phone **traced above**
+                                                                                - prod_mdl_trnsfrm.scv_match_name_email **traced above**
+                                                                                - prod_mdl_trnsfrm.scv_match_email_phone **traced above**
+                                                                                - prod_mdl_trnsfrm.scv_match_external_sourcesystem **traced above**
+                                                                                - prod_mdl_trnsfrm.scv_match_name_address **traced above**
+                                                                                - prod_mdl_trnsfrm.scv_match_email **traced above**
+                                                                    - prod_mdl_trnsfrm_view.TX_scv_match_nonassociate_merge__17D
+                                                                        - prod_mdl_trnsfrm.scv_match_matrix_nonassociate_wrk01 **traced above**
+                                                                        - prod_mdl_trnsfrm.scv_match_associate_wrk01 **traced above**
+                                                            - prod_mdl_trnsfrm.scv_customer_phone_exclusion_wrk02 **traced above**
+                                                            - prod_mdl_trnsfrm.scv_customer_name_exclusion_wrk02 **traced above**
+                                                            - prod_mdl_trnsfrm.scv_customer_email_exclusion_wrk02 **traced above**
+                                                    - prod_mdl_trnsfrm.scv_customer_match_input_wrk01 **traced above**
+                                            - prod_mdl_trnsfrm.scv_source_system_score **traced above**
+                                    - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                    - prod_mdl_trnsfrm_view.TX_party_related_hist_1024_3737_0PO
+                        - prod_mdl_src_view.scv_match_matrix_ffxid **traced above**
+                    - prod_mdl_trnsfrm_view.TX_party_related_hist_1024_3737_0TY
+                        - prod_mdl_src_view.party_related_hist_ni **traced above**
+                        - prod_mdl_src_view.scv_match_matrix_ffxid **traced above**
+                    - prod_mdl_trnsfrm_view.TX_party_related_hist_1045_4373_11Z
+                        - prod_srci_src_view.SRCI_1045_4373_accounts_identities **traced above**
+            - prod_mdl_src_view.account_type **traced above**
+        - prod_prstn_trnsfrm_view.TX_dim_agency_dfp_adexbynet_22R
+            - prod_prstn_trnsfrm.dim_agency_dfp_adexbynet_drv
+                - prod_prstn_trnsfrm_view.TX_dim_agency_dfp_adexbynet_drv_insert_22Q
+                    - prod_srci_src_view.SRCI_1071_4625_dfp_ad_exchange_keylist
+                        - prod_srci.SRCI_1071_4625_dfp_ad_exchange_keylist
+                            - prod_srci_trnsfrm_view.TX_1071_4625_dfp_ad_exchange_keylist
+                                - prod_srci_src_view.SRCI_1071_4625_dfp_ad_exchange
+                                    - prod_srci.SRCI_1071_4625_dfp_ad_exchange
+                                        - prod_srci_trnsfrm_view.TX_1071_4625_dfp_ad_exchange
+                                            - prod_stg_src_view.STG_1071_4625_dfp_ad_exchange
+                                            - prod_ref_src_view.BKEY_5075_AD_ORDR_LINE
+                                            - prod_ref_src_view.BKEY_5066_AD_ORDR_HDR **traced above**
+                                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                - prod_srci_src_view.SRCI_1011_4636_vw_product_e_consolidate [mds]
+                                    - prod_srci.SRCI_1011_4636_vw_product_e_consolidate [mds]
+                                        - prod_srci_trnsfrm_view.TX_1011_4636_vw_P_E_Consolidate [mds]
+                                            - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds]
+                                                - prod_srci.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds]
+                                                    - prod_srci_trnsfrm_view.TX_1011_3761_vw_P_E_Adpdt_LM [mds]
+                                                        - prod_stg_src_view.STG_1011_3761_vw_product_e_adproductdetail_leafmembers [mds]
+                                                        - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                                - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                                            - prod_srci_src_view.SRCI_1011_3760_vw_product_e_adproduct_leafmembers [mds]
+                                                - prod_srci.SRCI_1011_3760_vw_product_e_adproduct_leafmembers [mds]
+                                                    - prod_srci_trnsfrm_view.TX_1011_3760_vw_P_E_Adprd_LM [mds]
+                                                        - prod_stg_src_view.STG_1011_3760_vw_product_e_adproduct_leafmembers [mds]
+                                                            - prod_stg.STG_1011_3760_vw_product_e_adproduct_leafmembers [mds]
+                                                        - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                                                        - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                            - prod_srci_src_view.SRCI_1011_3190_vw_products_e_productattribute1_leafmembers [mds]
+                                                - prod_srci.SRCI_1011_3190_vw_products_e_productattribute1_leafmembers [mds]
+                                                    - prod_srci_trnsfrm_view.TX_1011_3190_vw_P_E_PA1_LM [mds]
+                                                        - prod_stg_src_view.STG_1011_3190_vw_products_e_productattribute1_leafmembers [mds]
+                                                        - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                                        - prod_ref_src_view.BKEY_5375_CHANNEL_INSTANCE
+                                                        - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                                            - prod_srci_src_view.SRCI_1011_3193_vw_products_e_productattribute4_leafmembers [mds]
+                                                - prod_srci.SRCI_1011_3193_vw_products_e_productattribute4_leafmembers [mds]
+                                                    - prod_srci_trnsfrm_view.TX_1011_3193_vw_P_E_PA4_LM [mds]
+                                                        - prod_stg_src_view.STG_1011_3193_vw_products_e_productattribute4_leafmembers [mds]
+                                                            - prod_stg.STG_1011_3193_vw_products_e_productattribute4_leafmembers [mds]
+                                                        - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                            - prod_srci_src_view.SRCI_1011_3180_vw_products_e_addtypeclassification_leafmembers [mds]
+                                                - prod_srci.SRCI_1011_3180_vw_products_e_addtypeclassification_leafmembers [mds]
+                                                    - prod_srci_trnsfrm_view.TX_1011_3180_vw_P_E_ADTC_LM [mds]
+                                                        - prod_stg_src_view.STG_1011_3180_vw_products_e_addtypeclassification_leafmembers [mds]
+                                                            - prod_stg.STG_1011_3180_vw_products_e_addtypeclassification_leafmembers [mds]
+                                                        - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                                            - prod_srci_src_view.SRCI_1011_3181_vw_products_e_brands_leafmembers [mds]
+                                                - prod_srci.SRCI_1011_3181_vw_products_e_brands_leafmembers [mds]
+                                                    - prod_srci_trnsfrm_view.TX_1011_3181_vw_P_E_BRND_LM [mds]
+                                                        - prod_stg_src_view.STG_1011_3181_vw_products_e_brands_leafmembers [mds]
+                                                            - prod_stg.STG_1011_3181_vw_products_e_brands_leafmembers [mds]
+                                                        - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                                            - prod_srci_src_view.SRCI_1011_3183_vw_products_e_brandsection_leafmembers [mds]
+                                                - prod_srci.SRCI_1011_3183_vw_products_e_brandsection_leafmembers [mds]
+                                                    - prod_srci_trnsfrm_view.TX_1011_3183_vw_P_E_BS_LM [mds]
+                                                        - prod_stg_src_view.STG_1011_3183_vw_products_e_brandsection_leafmembers [mds]
+                                                            - prod_stg.STG_1011_3183_vw_products_e_brandsection_leafmembers [mds]
+                                                        - prod_ref_src_view.BKEY_5375_CHANNEL_INSTANCE **traced above**
+                                                        - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                                                - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                            - prod_srci_src_view.SRCI_1011_3192_vw_products_e_productattribute3_leafmembers [mds]
+                                                - prod_srci.SRCI_1011_3192_vw_products_e_productattribute3_leafmembers [mds]
+                                                    - prod_srci_trnsfrm_view.TX_1011_3192_vw_P_E_PA3_LM [mds]
+                                                        - prod_stg_src_view.STG_1011_3192_vw_products_e_productattribute3_leafmembers [mds]
+                                                            - prod_stg.STG_1011_3192_vw_products_e_productattribute3_leafmembers [mds]
+                                                        - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                            - prod_srci_src_view.SRCI_1011_3195_vw_products_e_productattribute6_leafmembers [mds]
+                                                - prod_srci.SRCI_1011_3195_vw_products_e_productattribute6_leafmembers [mds]
+                                                    - prod_srci_trnsfrm_view.TX_1011_3195_vw_P_E_PA6_LM [mds]
+                                                        - prod_stg_src_view.STG_1011_3195_vw_products_e_productattribute6_leafmembers [mds]
+                                                            - prod_stg.STG_1011_3195_vw_products_e_productattribute6_leafmembers [mds]
+                                                        - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                            - prod_srci_src_view.SRCI_1011_3194_vw_products_e_productattribute5_leafmembers [mds]
+                                                - prod_srci.SRCI_1011_3194_vw_products_e_productattribute5_leafmembers [mds]
+                                                    - prod_srci_trnsfrm_view.TX_1011_3194_vw_P_E_PA5_LM [mds]
+                                                        - prod_stg_src_view.STG_1011_3194_vw_products_e_productattribute5_leafmembers [mds]
+                                                        - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                                                        - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                            - prod_srci_src_view.SRCI_1011_3182_vw_products_e_brandproduct_leafmembers [mds]
+                                                - prod_srci.SRCI_1011_3182_vw_products_e_brandproduct_leafmembers [mds]
+                                                    - prod_srci_trnsfrm_view.TX_1011_3182_vw_P_E_BP_LM [mds]
+                                                        - prod_stg_src_view.STG_1011_3182_vw_products_e_brandproduct_leafmembers [mds]
+                                                            - prod_stg.STG_1011_3182_vw_products_e_brandproduct_leafmembers [mds]
+                                                        - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                                            - prod_srci_src_view.SRCI_1011_3792_vw_product_e_adproductrollup_leafmembers [mds]
+                                                - prod_srci.SRCI_1011_3792_vw_product_e_adproductrollup_leafmembers [mds]
+                                                    - prod_srci_trnsfrm_view.TX_1011_3792_vw_P_E_Adpdt_LM [mds]
+                                                        - prod_stg_src_view.STG_1011_3792_vw_product_e_adproductrollup_leafmembers [mds]
+                                                            - prod_stg.STG_1011_3792_vw_product_e_adproductrollup_leafmembers [mds]
+                                                        - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                                            - prod_srci_src_view.SRCI_1011_3200_vw_product_e_publication_leafmembers [mds]
+                                                - prod_srci.SRCI_1011_3200_vw_product_e_publication_leafmembers [mds]
+                                                    - prod_srci_trnsfrm_view.TX_1011_3200_vw_P_E_PUB_LM [mds]
+                                                        - prod_stg_src_view.STG_1011_3200_vw_product_e_publication_leafmembers [mds]
+                                                        - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                                                        - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                                            - prod_srci_src_view.SRCI_1011_3188_vw_products_e_platform_leafmembers [mds]
+                                                - prod_srci.SRCI_1011_3188_vw_products_e_platform_leafmembers [mds]
+                                                    - prod_srci_trnsfrm_view.TX_1011_3188_vw_P_E_PLT_LM [mds]
+                                                        - prod_stg_src_view.STG_1011_3188_vw_products_e_platform_leafmembers [mds]
+                                                            - prod_stg.STG_1011_3188_vw_products_e_platform_leafmembers [mds]
+                                                        - prod_ref_src_view.BKEY_5375_CHANNEL_INSTANCE **traced above**
+                                                        - prod_ref_src_view.BKEY_7203_CHANNEL_GROUP
+                                            - prod_srci_src_view.SRCI_1011_3198_vw_product_e_brandgroup_leafmembers [mds]
+                                                - prod_srci.SRCI_1011_3198_vw_product_e_brandgroup_leafmembers [mds]
+                                                    - prod_srci_trnsfrm_view.TX_1011_3198_vw_P_E_BG_LM [mds]
+                                                        - prod_stg_src_view.STG_1011_3198_vw_product_e_brandgroup_leafmembers [mds]
+                                                            - prod_stg.STG_1011_3198_vw_product_e_brandgroup_leafmembers [mds]
+                                                        - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                                            - prod_srci_src_view.SRCI_1011_3186_vw_products_e_medium_leafmembers [mds]
+                                                - prod_srci.SRCI_1011_3186_vw_products_e_medium_leafmembers [mds]
+                                                    - prod_srci_trnsfrm_view.TX_1011_3186_vw_P_E_MED_LM [mds]
+                                                        - prod_stg_src_view.STG_1011_3186_vw_products_e_medium_leafmembers [mds]
+                                                            - prod_stg.STG_1011_3186_vw_products_e_medium_leafmembers [mds]
+                                                        - prod_ref_src_view.BKEY_7203_CHANNEL_GROUP **traced above**
+                                            - prod_srci_src_view.SRCI_1011_3191_vw_products_e_productattribute2_leafmembers [mds]
+                                                - prod_srci.SRCI_1011_3191_vw_products_e_productattribute2_leafmembers [mds]
+                                                    - prod_srci_trnsfrm_view.TX_1011_3191_vw_P_E_PA2_LM [mds]
+                                                        - prod_stg_src_view.STG_1011_3191_vw_products_e_productattribute2_leafmembers [mds]
+                                                            - prod_stg.STG_1011_3191_vw_products_e_productattribute2_leafmembers [mds]
+                                                        - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                    - prod_srci_src_view.SRCI_1011_3171_vw_accounts_e_accountgp_leafmembers [mds] **traced above**
+                    - prod_srci_src_view.SRCI_1011_3169_vw_accounts_e_account_leafmembers [mds] **traced above**
+                    - prod_srci_src_view.SRCI_1011_3172_vw_accounts_e_accountparent_leafmembers [mds] **traced above**
+            - prod_srci_src_view.SRCI_1011_3172_vw_accounts_e_accountparent_leafmembers [mds] **traced above**
+            - prod_srci_src_view.SRCI_1011_3171_vw_accounts_e_accountgp_leafmembers [mds] **traced above**
+            - prod_srci_src_view.SRCI_1071_4625_dfp_ad_exchange_keylist **traced above**
+            - prod_srci_src_view.SRCI_1011_3169_vw_accounts_e_account_leafmembers [mds] **traced above**
+    - prod_srci_view.SRCI_1011_4615_vw_accounts_e_dncaccount_leafmembers [mds]
+        - prod_srci_src_view.SRCI_1011_4615_vw_accounts_e_dncaccount_leafmembers [mds]
+            - prod_srci.SRCI_1011_4615_vw_accounts_e_dncaccount_leafmembers [mds]
+                - prod_srci_trnsfrm_view.TX_1011_4615_vw_A_E_DNC_LM [mds]
+                    - prod_stg_src_view.STG_1011_4615_vw_accounts_e_dncaccount_leafmembers [mds]
+                        - prod_stg.STG_1011_4615_vw_accounts_e_dncaccount_leafmembers [mds]
+                    - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+    - prod_mdl_view.account_status_type
+        - prod_ref.BMAP_STANDARD_MAP **traced above**
+        - prod_ref.BMAP_REFERENCE_DESCRIPTION **traced above**
+    - prod_srci_src_view.SRCI_1011_3172_vw_accounts_e_accountparent_leafmembers [mds] **traced above**
+    - prod_srci_src_view.SRCI_1011_3171_vw_accounts_e_accountgp_leafmembers [mds] **traced above**
+    - prod_prstn_view.dim_dnc_rules_agency
+        - prod_prstn.dim_dnc_rules_agency
+            - prod_prstn_trnsfrm_view.TX_dim_dnc_rules_agency_19T
+                - prod_prstn_view.dim_agency
+                    - prod_prstn.dim_agency **traced above**
+                    - prod_srci_view.SRCI_1011_4615_vw_accounts_e_dncaccount_leafmembers [mds] **traced above**
+                    - prod_mdl_view.account_status_type **traced above**
+                    - prod_srci_src_view.SRCI_1011_3172_vw_accounts_e_accountparent_leafmembers [mds] **traced above**
+                    - prod_srci_src_view.SRCI_1011_3171_vw_accounts_e_accountgp_leafmembers [mds] **traced above**
+                    - prod_prstn_view.dim_dnc_rules_agency **traced above**
+                    - prod_mdl_view.ACCOUNT_GROUP
+                        - prod_mdl.account_group **traced above**
+                    - prod_srci_src_view.SRCI_1011_3169_vw_accounts_e_account_leafmembers [mds] **traced above**
+                    - prod_mdl_view.account_type
+                        - prod_ref.BMAP_STANDARD_MAP **traced above**
+                        - prod_ref.BMAP_REFERENCE_DESCRIPTION **traced above**
+    - prod_mdl_view.ACCOUNT_GROUP **traced above**
+    - prod_srci_src_view.SRCI_1011_3169_vw_accounts_e_account_leafmembers [mds] **traced above**
+    - prod_mdl_view.account_type **traced above**

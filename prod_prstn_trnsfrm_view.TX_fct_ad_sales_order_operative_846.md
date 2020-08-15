@@ -1,0 +1,593 @@
+- prod_prstn_trnsfrm_view.TX_fct_ad_sales_order_operative_846
+    - prod_mdl_src_view.ad_order_line
+        - prod_mdl.ad_order_line
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_1004_3032_244
+                - prod_srci_src_view.SRCI_1004_3032_insertion
+                    - prod_srci.SRCI_1004_3032_insertion
+                        - prod_srci_trnsfrm_view.TX_1004_3032_insertion
+                            - prod_stg_src_view.STG_1004_3032_insertion
+                                - prod_stg.STG_1004_3032_insertion
+                            - prod_ref_src_view.BKEY_5942_ITEM_PRICING
+                            - prod_ref_src_view.BKEY_5066_AD_ORDR_HDR
+                            - prod_ref_src_view.BKEY_5915_ITEM
+                            - prod_ref_src_view.BKEY_7175_AD_ORDR_LINE_GRP
+                            - prod_ref_src_view.BKEY_6300_PRTY
+                            - prod_ref_src_view.BKEY_5128_AGREEMENT
+                            - prod_ref_src_view.BKEY_6605_RQST_PLCMNT_PRINT
+                            - prod_ref_src_view.BMAP_Standard_Map
+                            - prod_ref_src_view.BKEY_5075_AD_ORDR_LINE
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_1005_3054_196
+                - prod_srci_src_view.SRCI_1005_3054_sales_order_line_items
+                    - prod_srci.SRCI_1005_3054_sales_order_line_items
+                        - prod_srci_trnsfrm_view.TX_1005_3054_sale_ordr_lnitm_del
+                            - prod_SRCI_SRC_VIEW.SRCI_1005_3054_sales_order_line_items
+                                - prod_srci.SRCI_1005_3054_sales_order_line_items **traced above**
+                            - prod_STG_SRC_VIEW.STG_1005_3054_sales_order_line_items
+                        - prod_srci_trnsfrm_view.TX_1005_3054_sale_ordr_lnitm
+                            - prod_stg_src_view.STG_1005_3054_sales_order_line_items
+                            - prod_ref_src_view.BKEY_5942_ITEM_PRICING **traced above**
+                            - prod_ref_src_view.BKEY_5066_AD_ORDR_HDR **traced above**
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                            - prod_ref_src_view.BKEY_6157_MLTPL_ITEM
+                            - prod_ref_src_view.BKEY_5075_AD_ORDR_LINE **traced above**
+    - prod_mdl_src_view.item_pricing
+        - prod_mdl.item_pricing
+            - prod_mdl_trnsfrm_view.TX_item_pricing_1004_3037_439
+                - prod_srci_src_view.SRCI_1004_3037_loading
+                    - prod_srci.SRCI_1004_3037_loading
+                        - prod_srci_trnsfrm_view.TX_1004_3037_ldng
+                            - prod_stg_src_view.STG_1004_3037_loading
+                                - prod_stg.STG_1004_3037_loading
+                            - prod_ref_src_view.BKEY_5942_ITEM_PRICING **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_pricing_1004_3112_438
+                - prod_srci_src_view.SRCI_1004_3112_rate
+                    - prod_srci.SRCI_1004_3112_rate
+                        - prod_srci_trnsfrm_view.TX_1004_3112_rate
+                            - prod_stg_src_view.STG_1004_3112_rate
+                                - prod_stg.STG_1004_3112_rate
+                            - prod_ref_src_view.BKEY_5942_ITEM_PRICING **traced above**
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                - prod_srci_src_view.SRCI_1004_3113_rate_card
+                    - prod_srci.SRCI_1004_3113_rate_card
+                        - prod_srci_trnsfrm_view.TX_1004_3113_rate_card
+                            - prod_stg_src_view.STG_1004_3113_rate_card
+                                - prod_stg.STG_1004_3113_rate_card
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_pricing_1005_3092_440
+                - prod_srci_src_view.SRCI_1005_3092_rate_card
+                    - prod_srci.SRCI_1005_3092_rate_card
+                        - prod_srci_trnsfrm_view.TX_1005_3092_rate_card
+                            - prod_stg_src_view.STG_1005_3092_rate_card
+                                - prod_stg.STG_1005_3092_rate_card
+                            - prod_ref_src_view.BKEY_5942_ITEM_PRICING **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_pricing_1006_3542_09Q
+                - prod_SRCI_src_view.SRCI_1006_3542_productrateplancharge
+                    - prod_srci.SRCI_1006_3542_productrateplancharge
+                        - prod_srci_trnsfrm_view.TX_1006_3542_prdrtplnchg
+                            - prod_stg_src_view.STG_1006_3542_productrateplancharge
+                                - prod_stg.STG_1006_3542_productrateplancharge
+                            - prod_ref_src_view.BKEY_5942_ITEM_PRICING **traced above**
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                            - prod_ref_src_view.BMAP_STANDARD_MAP
+                - prod_SRCI_src_view.SRCI_1006_3543_productrateplanchargetier
+                    - prod_srci.SRCI_1006_3543_productrateplanchargetier
+                        - prod_srci_trnsfrm_view.TX_1006_3543_prdrtplnchgtier
+                            - prod_stg_src_view.STG_1006_3543_productrateplanchargetier
+                                - prod_stg.STG_1006_3543_productrateplanchargetier
+                            - prod_ref_src_view.BKEY_5942_ITEM_PRICING **traced above**
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                            - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+    - prod_mdl_src_view.ad_order_header
+        - prod_mdl.ad_order_header
+            - prod_mdl_trnsfrm_view.TX_ad_order_header_1004_3019_092
+                - prod_srci_src_view.SRCI_1004_3019_booking
+                    - prod_srci.SRCI_1004_3019_booking
+                        - prod_srci_trnsfrm_view.TX_1004_3019_booking
+                            - prod_stg_src_view.STG_1004_3019_booking
+                                - prod_stg.STG_1004_3019_booking
+                            - prod_ref_src_view.BKEY_5066_AD_ORDR_HDR **traced above**
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                            - prod_ref_src_view.BKEY_5026_ACNT
+                            - prod_ref_src_view.BKEY_6019_LCTN
+                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+            - prod_mdl_trnsfrm_view.TX_ad_order_header_1005_3056_134
+                - prod_srci_src_view.SRCI_1005_3056_sales_order
+                    - prod_srci.SRCI_1005_3056_sales_order
+                        - prod_srci_trnsfrm_view.TX_1005_3056_sale_ordr
+                            - prod_stg_src_view.STG_1005_3056_sales_order
+                            - prod_ref_src_view.BKEY_5066_AD_ORDR_HDR **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                        - prod_srci_trnsfrm_view.TX_1005_3056_sale_ordr_del
+                            - prod_SRCI_SRC_VIEW.SRCI_1005_3056_sales_order
+                                - prod_srci.SRCI_1005_3056_sales_order **traced above**
+                            - prod_STG_SRC_VIEW.STG_1005_3056_sales_order
+    - prod_mdl_src_view.item_hierarchy_hist
+        - prod_mdl.item_hierarchy_hist
+            - prod_mdl_trnsfrm_view.TX_item_hierarchy_hist_1004_3105_179
+                - prod_srci_src_view.SRCI_1004_3105_product_hier
+                    - prod_srci.SRCI_1004_3105_product_hier
+                        - prod_srci_trnsfrm_view.TX_1004_3105_product_hier
+                            - prod_stg_src_view.STG_1004_3105_product_hier
+                                - prod_stg.STG_1004_3105_product_hier
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                - prod_mdl_trnsfrm.TX_item_hierarchy_hist_1004_3105_179_1
+                    - prod_mdl_trnsfrm_view.TX_item_hierarchy_hist_1004_3105_179_1
+                        - prod_srci_src_view.SRCI_1004_3105_product_hier **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_hierarchy_hist_1004_3021_178
+                - prod_srci_src_view.SRCI_1004_3021_classification_hier
+                    - prod_srci.SRCI_1004_3021_classification_hier
+                        - prod_srci_trnsfrm_view.TX_1004_3021_clsfctn_hier
+                            - prod_stg_src_view.STG_1004_3021_classification_hier
+                                - prod_stg.STG_1004_3021_classification_hier
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_hierarchy_hist_1004_3120_180
+                - prod_srci_src_view.SRCI_1004_3120_publication_hier
+                    - prod_srci.SRCI_1004_3120_publication_hier
+                        - prod_srci_trnsfrm_view.TX_1004_3120_pblctn_hier
+                            - prod_stg_src_view.STG_1004_3120_publication_hier
+                                - prod_stg.STG_1004_3120_publication_hier
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+            - prod_mdl_trnsfrm_view.TX_Item_hierarchy_hist_1011_3760_0ST [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds]
+                    - prod_srci.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds]
+                        - prod_srci_trnsfrm_view.TX_1011_3761_vw_P_E_Adpdt_LM [mds]
+                            - prod_stg_src_view.STG_1011_3761_vw_product_e_adproductdetail_leafmembers [mds]
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                    - prod_ref_src_view.BKEY_5923_ITEM_GRP
+                - prod_srci_src_view.SRCI_1011_3760_vw_product_e_adproduct_leafmembers [mds]
+                    - prod_srci.SRCI_1011_3760_vw_product_e_adproduct_leafmembers [mds]
+                        - prod_srci_trnsfrm_view.TX_1011_3760_vw_P_E_Adprd_LM [mds]
+                            - prod_stg_src_view.STG_1011_3760_vw_product_e_adproduct_leafmembers [mds]
+                                - prod_stg.STG_1011_3760_vw_product_e_adproduct_leafmembers [mds]
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+            - prod_mdl_trnsfrm_view.TX_Item_hierarchy_hist_1011_3761_0SX [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_Item_hierarchy_hist_1011_3761_0SW [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_Item_hierarchy_hist_1011_3761_0SY [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_Item_hierarchy_hist_1011_3760_0SU [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3760_vw_product_e_adproduct_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_Item_hierarchy_hist_1011_3761_0SV [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3760_vw_product_e_adproduct_leafmembers [mds] **traced above**
+    - prod_mdl_src_view.ad_order_line_metric
+        - prod_mdl.ad_order_line_metric
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_metric_1004_3032_117
+                - prod_srci_src_view.SRCI_1004_3032_insertion **traced above**
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_metric_1004_3032_118
+                - prod_srci_src_view.SRCI_1004_3032_insertion **traced above**
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_metric_1005_3054_147
+                - prod_srci_src_view.SRCI_1005_3054_sales_order_line_items **traced above**
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_metric_1005_3054_146
+                - prod_srci_src_view.SRCI_1005_3054_sales_order_line_items **traced above**
+    - prod_mdl_src_view.ad_order_line_hist
+        - prod_mdl.ad_order_line_hist
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_hist_1004_3032_300
+                - prod_srci_src_view.SRCI_1004_3032_insertion **traced above**
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_hist_1005_3054_198
+                - prod_srci_src_view.SRCI_1005_3054_sales_order_line_items **traced above**
+    - prod_mdl_src_view.metric_type
+        - prod_ref.BMAP_STANDARD_MAP
+        - prod_ref.BMAP_REFERENCE_DESCRIPTION
+    - prod_mdl_src_view.item_item_group_hist
+        - prod_mdl.item_item_group_hist
+            - prod_mdl_trnsfrm_view.TX_ITEM_ITEM_GROUP_HIST_1011_3792_0UY [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3792_vw_product_e_adproductrollup_leafmembers [mds]
+                    - prod_srci.SRCI_1011_3792_vw_product_e_adproductrollup_leafmembers [mds]
+                        - prod_srci_trnsfrm_view.TX_1011_3792_vw_P_E_Adpdt_LM [mds]
+                            - prod_stg_src_view.STG_1011_3792_vw_product_e_adproductrollup_leafmembers [mds]
+                                - prod_stg.STG_1011_3792_vw_product_e_adproductrollup_leafmembers [mds]
+                            - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                - prod_srci_src_view.SRCI_1011_3183_vw_products_e_brandsection_leafmembers [mds]
+                    - prod_srci.SRCI_1011_3183_vw_products_e_brandsection_leafmembers [mds]
+                        - prod_srci_trnsfrm_view.TX_1011_3183_vw_P_E_BS_LM [mds]
+                            - prod_stg_src_view.STG_1011_3183_vw_products_e_brandsection_leafmembers [mds]
+                                - prod_stg.STG_1011_3183_vw_products_e_brandsection_leafmembers [mds]
+                            - prod_ref_src_view.BKEY_5375_CHANNEL_INSTANCE
+                            - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                    - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                - prod_srci_src_view.SRCI_1011_3760_vw_product_e_adproduct_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3194_vw_products_e_productattribute5_leafmembers [mds]
+                    - prod_srci.SRCI_1011_3194_vw_products_e_productattribute5_leafmembers [mds]
+                        - prod_srci_trnsfrm_view.TX_1011_3194_vw_P_E_PA5_LM [mds]
+                            - prod_stg_src_view.STG_1011_3194_vw_products_e_productattribute5_leafmembers [mds]
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                - prod_srci_src_view.SRCI_1011_3182_vw_products_e_brandproduct_leafmembers [mds]
+                    - prod_srci.SRCI_1011_3182_vw_products_e_brandproduct_leafmembers [mds]
+                        - prod_srci_trnsfrm_view.TX_1011_3182_vw_P_E_BP_LM [mds]
+                            - prod_stg_src_view.STG_1011_3182_vw_products_e_brandproduct_leafmembers [mds]
+                                - prod_stg.STG_1011_3182_vw_products_e_brandproduct_leafmembers [mds]
+                            - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                - prod_gcfr_view.gcfr_stream_id_log
+                    - prod_gcfr_table.GCFR_Stream_Id_Log
+            - prod_mdl_trnsfrm_view.TX_item_item_group_hist_1011_3689_0H5 [mds]
+                - prod_srci_src_view.SRCI_1011_3689_vw_product_e_manualproductcreation_leafmembers [mds]
+                    - prod_srci.SRCI_1011_3689_vw_product_e_manualproductcreation_leafmembers [mds]
+                        - prod_srci_trnsfrm_view.TX_1011_3689_vw_P_E_ManPC_LM [mds]
+                            - prod_stg_src_view.STG_1011_3689_vw_product_e_manualproductcreation_leafmembers [mds]
+                                - prod_stg.STG_1011_3689_vw_product_e_manualproductcreation_leafmembers [mds]
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+            - prod_mdl_trnsfrm_view.TX_Item_item_group_hist_1011_3761_0T5 [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3760_vw_product_e_adproduct_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_Item_item_group_hist_1011_3761_0T3 [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3194_vw_products_e_productattribute5_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_item_group_hist_1011_3200_703 [mds]
+                - prod_srci_src_view.SRCI_1011_3200_vw_product_e_publication_leafmembers [mds]
+                    - prod_srci.SRCI_1011_3200_vw_product_e_publication_leafmembers [mds]
+                        - prod_srci_trnsfrm_view.TX_1011_3200_vw_P_E_PUB_LM [mds]
+                            - prod_stg_src_view.STG_1011_3200_vw_product_e_publication_leafmembers [mds]
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+            - prod_mdl_trnsfrm_view.TX_Item_item_group_hist_1011_3761_0T9 [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3190_vw_products_e_productattribute1_leafmembers [mds]
+                    - prod_srci.SRCI_1011_3190_vw_products_e_productattribute1_leafmembers [mds]
+                        - prod_srci_trnsfrm_view.TX_1011_3190_vw_P_E_PA1_LM [mds]
+                            - prod_stg_src_view.STG_1011_3190_vw_products_e_productattribute1_leafmembers [mds]
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_5375_CHANNEL_INSTANCE **traced above**
+                            - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                - prod_srci_src_view.SRCI_1011_3760_vw_product_e_adproduct_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3180_vw_products_e_addtypeclassification_leafmembers [mds]
+                    - prod_srci.SRCI_1011_3180_vw_products_e_addtypeclassification_leafmembers [mds]
+                        - prod_srci_trnsfrm_view.TX_1011_3180_vw_P_E_ADTC_LM [mds]
+                            - prod_stg_src_view.STG_1011_3180_vw_products_e_addtypeclassification_leafmembers [mds]
+                                - prod_stg.STG_1011_3180_vw_products_e_addtypeclassification_leafmembers [mds]
+                            - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+            - prod_mdl_trnsfrm_view.TX_Item_item_group_hist_1011_3761_0T8 [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3190_vw_products_e_productattribute1_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3760_vw_product_e_adproduct_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_item_group_hist_1011_3200_812 [mds]
+                - prod_srci_src_view.SRCI_1011_3200_vw_product_e_publication_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3181_vw_products_e_brands_leafmembers [mds]
+                    - prod_srci.SRCI_1011_3181_vw_products_e_brands_leafmembers [mds]
+                        - prod_srci_trnsfrm_view.TX_1011_3181_vw_P_E_BRND_LM [mds]
+                            - prod_stg_src_view.STG_1011_3181_vw_products_e_brands_leafmembers [mds]
+                                - prod_stg.STG_1011_3181_vw_products_e_brands_leafmembers [mds]
+                            - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_item_group_hist_1011_3200_811 [mds]
+                - prod_srci_src_view.SRCI_1011_3200_vw_product_e_publication_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3181_vw_products_e_brands_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_Item_item_group_hist_1011_3761_0TA [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3190_vw_products_e_productattribute1_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3760_vw_product_e_adproduct_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3180_vw_products_e_addtypeclassification_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_Item_item_group_hist_1011_3761_0T6 [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3180_vw_products_e_addtypeclassification_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3194_vw_products_e_productattribute5_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_item_group_hist_1011_3728_0R9 [mds]
+                - prod_srci_src_view.SRCI_1011_3728_vw_product_e_subscriptionrateplans_leafmembers [mds]
+                    - prod_srci.SRCI_1011_3728_vw_product_e_subscriptionrateplans_leafmembers [mds]
+                        - prod_srci_trnsfrm_view.TX_1011_3728_vw_P_E_SubRP_LM [mds]
+                            - prod_stg_src_view.STG_1011_3728_vw_product_e_subscriptionrateplans_leafmembers [mds]
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+            - prod_mdl_trnsfrm_view.TX_ITEM_ITEM_GROUP_HIST_1011_3792_0UX [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3792_vw_product_e_adproductrollup_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3190_vw_products_e_productattribute1_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3183_vw_products_e_brandsection_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3760_vw_product_e_adproduct_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3182_vw_products_e_brandproduct_leafmembers [mds] **traced above**
+                - prod_gcfr_view.gcfr_stream_id_log **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_item_group_hist_1011_3200_970 [mds]
+                - prod_srci_src_view.SRCI_1011_3200_vw_product_e_publication_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_item_group_hist_1011_3200_868 [mds]
+                - prod_srci_src_view.SRCI_1011_3200_vw_product_e_publication_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3198_vw_product_e_brandgroup_leafmembers [mds]
+                    - prod_srci.SRCI_1011_3198_vw_product_e_brandgroup_leafmembers [mds]
+                        - prod_srci_trnsfrm_view.TX_1011_3198_vw_P_E_BG_LM [mds]
+                            - prod_stg_src_view.STG_1011_3198_vw_product_e_brandgroup_leafmembers [mds]
+                                - prod_stg.STG_1011_3198_vw_product_e_brandgroup_leafmembers [mds]
+                            - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                - prod_srci_src_view.SRCI_1011_3181_vw_products_e_brands_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_Item_item_group_hist_1011_3761_0T4 [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3760_vw_product_e_adproduct_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_Item_item_group_hist_1011_3761_0T7 [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3180_vw_products_e_addtypeclassification_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3194_vw_products_e_productattribute5_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_Item_item_group_hist_1011_3761_0T2 [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3760_vw_product_e_adproduct_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_item_group_hist_1015_3367_0BW
+                - prod_srci_src_view.SRCI_1015_3367_cmratecode
+                    - prod_srci.SRCI_1015_3367_cmratecode
+                        - prod_srci_trnsfrm_view.TX_1015_3367_cmRateCode
+                            - prod_stg_src_view.STG_1015_3367_cmratecode
+                                - prod_stg.STG_1015_3367_cmratecode
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_5923_ITEM_GRP **traced above**
+                            - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+    - prod_srci_src_view.SRCI_1005_3054_sales_order_line_items **traced above**
+    - prod_mdl_src_view.ad_order_line_item_pricing_hist
+        - prod_mdl.ad_order_line_item_pricing_hist
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_item_pricing_hist_1004_3034_368
+                - prod_srci_src_view.SRCI_1004_3034_insertion_loading
+                    - prod_srci.SRCI_1004_3034_insertion_loading
+                        - prod_srci_trnsfrm_view.TX_1004_3034_insertion_loading
+                            - prod_stg_src_view.STG_1004_3034_insertion_loading
+                                - prod_stg.STG_1004_3034_insertion_loading
+                            - prod_ref_src_view.BKEY_5942_ITEM_PRICING **traced above**
+                            - prod_ref_src_view.BKEY_5066_AD_ORDR_HDR **traced above**
+                            - prod_ref_src_view.BKEY_7175_AD_ORDR_LINE_GRP **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                            - prod_ref_src_view.BKEY_5075_AD_ORDR_LINE **traced above**
+                    - prod_srci_src_view.SRCI_1004_3032_insertion **traced above**
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_item_pricing_hist_1004_3032_369
+                - prod_srci_src_view.SRCI_1004_3032_insertion **traced above**
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_item_pricing_hist_1005_3054_370
+                - prod_srci_src_view.SRCI_1005_3054_sales_order_line_items **traced above**
+    - prod_mdl_src_view.channel_item_hist
+        - prod_mdl.channel_item_hist
+            - prod_mdl_trnsfrm_view.TX_channel_item_hist_1011_3761_0SS [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3190_vw_products_e_productattribute1_leafmembers [mds] **traced above**
+                - prod_srci_src_view.SRCI_1011_3760_vw_product_e_adproduct_leafmembers [mds] **traced above**
+    - prod_mdl_src_view.ad_order_line_item
+        - prod_mdl.ad_order_line_item
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_item_1004_3032_347
+                - prod_srci_src_view.Srci_1004_3032_insertion
+                    - prod_srci.SRCI_1004_3032_insertion **traced above**
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_item_1004_3032_346
+                - prod_srci_src_view.Srci_1004_3032_insertion **traced above**
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_item_1004_3032_345
+                - prod_srci_src_view.Srci_1004_3032_insertion **traced above**
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_item_1005_3054_164
+                - prod_srci_src_view.SRCI_1005_3054_sales_order_line_items **traced above**
+    - prod_mdl_src_view.ad_order_line_related_hist
+        - prod_mdl.ad_order_line_related_hist
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_related_hist_1005_3054_086
+                - prod_srci_src_view.SRCI_1005_3054_sales_order_line_items **traced above**
+    - prod_mdl_src_view.item
+        - prod_mdl.item
+            - prod_mdl_trnsfrm_view.TX_item_1004_3005_173
+                - prod_srci_src_view.SRCI_1004_3005_classification
+                    - prod_srci.SRCI_1004_3005_classification
+                        - prod_srci_trnsfrm_view.TX_1004_3005_clsfctn
+                            - prod_stg_src_view.STG_1004_3005_classification
+                                - prod_stg.STG_1004_3005_classification
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1004_3011_177
+                - prod_srci_src_view.SRCI_1004_3011_publication
+                    - prod_srci.SRCI_1004_3011_publication
+                        - prod_srci_trnsfrm_view.TX_1004_3011_pblctn
+                            - prod_stg_src_view.STG_1004_3011_publication
+                                - prod_stg.STG_1004_3011_publication
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                            - prod_ref_src_view.BKEY_6019_LCTN **traced above**
+                            - prod_ref_src_view.BKEY_6157_MLTPL_ITEM **traced above**
+                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1004_3104_175
+                - prod_srci_src_view.SRCI_1004_3104_product
+                    - prod_srci.SRCI_1004_3104_product
+                        - prod_srci_trnsfrm_view.TX_1004_3104_product
+                            - prod_stg_src_view.STG_1004_3104_product
+                                - prod_stg.STG_1004_3104_product
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1004_3010_176
+                - prod_srci_src_view.SRCI_1004_3010_package
+                    - prod_srci.SRCI_1004_3010_package
+                        - prod_srci_trnsfrm_view.TX_1004_3010_pckg
+                            - prod_stg_src_view.STG_1004_3010_package
+                                - prod_stg.STG_1004_3010_package
+                            - prod_ref_src_view.BKEY_6157_MLTPL_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1005_3086_389
+                - prod_srci_src_view.SRCI_1005_3086_ad_slot
+                    - prod_srci.SRCI_1005_3086_ad_slot
+                        - prod_srci_trnsfrm_view.TX_1005_3086_ad_slot
+                            - prod_stg_src_view.STG_1005_3086_ad_slot
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                            - prod_ref_src_view.BKEY_5145_AGREEMENT_TERM
+                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1005_3052_172
+                - prod_srci_src_view.SRCI_1005_3052_products
+                    - prod_srci.SRCI_1005_3052_products
+                        - prod_srci_trnsfrm_view.TX_1005_3052_prdct
+                            - prod_stg_src_view.STG_1005_3052_products
+                                - prod_stg.STG_1005_3052_products
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                            - prod_ref_src_view.BKEY_6157_MLTPL_ITEM **traced above**
+                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1006_3542_0PQ
+                - prod_SRCI_src_view.SRCI_1006_3542_productrateplancharge **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1006_3541_07Q
+                - prod_SRCI_src_view.SRCI_1006_3541_productrateplan
+                    - prod_srci.SRCI_1006_3541_productrateplan
+                        - prod_srci_trnsfrm_view.TX_1006_3541_prdrateplan
+                            - prod_stg_src_view.STG_1006_3541_productrateplan
+                                - prod_stg.STG_1006_3541_productrateplan
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1006_3540_07P
+                - prod_SRCI_src_view.SRCI_1006_3540_product
+                    - prod_srci.SRCI_1006_3540_product
+                        - prod_srci_trnsfrm_view.TX_1006_3540_product
+                            - prod_stg_src_view.STG_1006_3540_product
+                                - prod_stg.STG_1006_3540_product
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1011_3728_0P3 [mds]
+                - prod_srci_src_view.SRCI_1011_3728_vw_product_e_subscriptionrateplans_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1011_3194_676 [mds]
+                - prod_srci_src_view.SRCI_1011_3194_vw_products_e_productattribute5_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1011_3191_673 [mds]
+                - prod_srci_src_view.SRCI_1011_3191_vw_products_e_productattribute2_leafmembers [mds]
+                    - prod_srci.SRCI_1011_3191_vw_products_e_productattribute2_leafmembers [mds]
+                        - prod_srci_trnsfrm_view.TX_1011_3191_vw_P_E_PA2_LM [mds]
+                            - prod_stg_src_view.STG_1011_3191_vw_products_e_productattribute2_leafmembers [mds]
+                                - prod_stg.STG_1011_3191_vw_products_e_productattribute2_leafmembers [mds]
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1011_3192_674 [mds]
+                - prod_srci_src_view.SRCI_1011_3192_vw_products_e_productattribute3_leafmembers [mds]
+                    - prod_srci.SRCI_1011_3192_vw_products_e_productattribute3_leafmembers [mds]
+                        - prod_srci_trnsfrm_view.TX_1011_3192_vw_P_E_PA3_LM [mds]
+                            - prod_stg_src_view.STG_1011_3192_vw_products_e_productattribute3_leafmembers [mds]
+                                - prod_stg.STG_1011_3192_vw_products_e_productattribute3_leafmembers [mds]
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1011_3200_678 [mds]
+                - prod_srci_src_view.SRCI_1011_3200_vw_product_e_publication_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1011_3193_675 [mds]
+                - prod_srci_src_view.SRCI_1011_3193_vw_products_e_productattribute4_leafmembers [mds]
+                    - prod_srci.SRCI_1011_3193_vw_products_e_productattribute4_leafmembers [mds]
+                        - prod_srci_trnsfrm_view.TX_1011_3193_vw_P_E_PA4_LM [mds]
+                            - prod_stg_src_view.STG_1011_3193_vw_products_e_productattribute4_leafmembers [mds]
+                                - prod_stg.STG_1011_3193_vw_products_e_productattribute4_leafmembers [mds]
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+            - prod_mdl_trnsfrm_view.TX_Item_1011_3761_0T1 [mds]
+                - prod_srci_src_view.SRCI_1011_3761_vw_product_e_adproductdetail_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1011_3689_0H3 [mds]
+                - prod_srci_src_view.SRCI_1011_3689_vw_product_e_manualproductcreation_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1011_3200_0US [mds]
+                - prod_srci_src_view.SRCI_1011_3200_vw_product_e_publication_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1011_3195_677 [mds]
+                - prod_srci_src_view.SRCI_1011_3195_vw_products_e_productattribute6_leafmembers [mds]
+                    - prod_srci.SRCI_1011_3195_vw_products_e_productattribute6_leafmembers [mds]
+                        - prod_srci_trnsfrm_view.TX_1011_3195_vw_P_E_PA6_LM [mds]
+                            - prod_stg_src_view.STG_1011_3195_vw_products_e_productattribute6_leafmembers [mds]
+                                - prod_stg.STG_1011_3195_vw_products_e_productattribute6_leafmembers [mds]
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1011_3190_672 [mds]
+                - prod_srci_src_view.SRCI_1011_3190_vw_products_e_productattribute1_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1011_3200_0UU [mds]
+                - prod_srci_src_view.SRCI_1011_3200_vw_product_e_publication_leafmembers [mds] **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1014_3233_13U
+                - prod_srci_src_view.SRCI_1014_3233_vw_channels
+                    - prod_srci.SRCI_1014_3233_vw_channels
+                        - prod_srci_trnsfrm_view.TX_1014_3233_vw_Channels
+                            - prod_stg_src_view.STG_1014_3233_vw_channels
+                                - prod_stg.STG_1014_3233_vw_channels
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1015_3365_07T
+                - prod_srci_src_view.SRCI_1015_3365_cmpublication
+                    - prod_srci.SRCI_1015_3365_cmpublication
+                        - prod_srci_trnsfrm_view.TX_1015_3365_cmPublication
+                            - prod_stg_src_view.STG_1015_3365_cmpublication
+                                - prod_stg.STG_1015_3365_cmpublication
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1015_3367_07U
+                - prod_srci_src_view.SRCI_1015_3367_cmratecode **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1021_3623_0WH
+                - prod_SRCI_src_view.SRCI_1021_3623_sales_summary
+                    - prod_srci.SRCI_1021_3623_sales_summary
+                        - prod_srci_trnsfrm_view.TX_1021_3623_sales_summary
+                            - prod_stg_src_view.STG_1021_3623_sales_summary
+                                - prod_stg.STG_1021_3623_sales_summary
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_7317_CHARGE_ACTIVITY
+                            - prod_ref_src_view.BKEY_6835_SUBSCRIPTION
+                    - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1021_3623_0WI
+                - prod_srci_src_view.SRCI_1021_3623_sales_summary
+                    - prod_srci.SRCI_1021_3623_sales_summary **traced above**
+                    - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1030_3824_0WX
+                - prod_srci_src_view.SRCI_1030_3824_salesreport
+                    - prod_srci.SRCI_1030_3824_salesreport
+                        - prod_srci_trnsfrm_view.TX_1030_3824_salesreport
+                            - prod_stg_src_view.STG_1030_3824_salesreport
+                                - prod_stg.STG_1030_3824_salesreport
+                            - prod_ref_src_view.BKEY_7317_CHARGE_ACTIVITY **traced above**
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6835_SUBSCRIPTION **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1030_3824_0WW
+                - prod_srci_src_view.SRCI_1030_3824_salesreport **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1046_4395_12W
+                - prod_srci_src_view.srci_1046_4395_site_data
+                    - prod_srci.SRCI_1046_4395_site_data
+                        - prod_srci_trnsfrm_view.TX_1046_4395_site_data
+                            - prod_stg_src_view.STG_1046_4395_site_data
+                                - prod_stg.STG_1046_4395_site_data
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1046_4395_13B
+                - prod_srci_src_view.srci_1046_4395_site_data **traced above**
+                - prod_srci_src_view.SRCI_1045_4372_accounts
+                    - prod_srci.SRCI_1045_4372_accounts
+                        - prod_srci_trnsfrm_view.TX_1045_4372_accounts
+                            - prod_stg_src_view.STG_1045_4372_accounts
+                                - prod_stg.STG_1045_4372_accounts
+                            - prod_ref_src_view.BKEY_5112_ADDRESS
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                            - prod_ref_src_view.BKEY_5026_ACNT **traced above**
+                            - prod_ref_src_view.BKEY_6835_SUBSCRIPTION **traced above**
+                    - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+            - prod_mdl_trnsfrm_view.TX_item_1060_4397_17G
+                - prod_srci_src_view.SRCI_1060_4397_vw_china_newsletter_newsletter
+                    - prod_srci.SRCI_1060_4397_vw_china_newsletter_newsletter
+                        - prod_srci_trnsfrm_view.TX_1060_4397_newsletter
+                            - prod_stg_src_view.STG_1060_4397_vw_china_newsletter_newsletter
+                                - prod_stg.STG_1060_4397_vw_china_newsletter_newsletter
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                    - prod_ref_src_view.BMAP_STANDARD_MAP **traced above**
+    - prod_srci_src_view.SRCI_1005_3052_products **traced above**
+    - prod_mdl_src_view.ad_order_line_class_xref
+        - prod_mdl.ad_order_line_class_xref
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_class_xref_1004_3032_245
+                - prod_srci_src_view.SRCI_1004_3032_insertion **traced above**
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_class_xref_1004_3661_0RU
+                - prod_srci_src_view.SRCI_1004_3661_shape
+                    - prod_srci.SRCI_1004_3661_shape
+                        - prod_srci_trnsfrm_view.TX_1004_3661_shape
+                            - prod_stg_src_view.STG_1004_3661_shape
+                            - prod_ref_src_view.BKEY_5066_AD_ORDR_HDR **traced above**
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_7175_AD_ORDR_LINE_GRP **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+                            - prod_ref_src_view.BKEY_5075_AD_ORDR_LINE **traced above**
+                - prod_srci_src_view.SRCI_1004_3659_page
+                    - prod_srci.SRCI_1004_3659_page
+                        - prod_srci_trnsfrm_view.TX_1004_3659_page
+                            - prod_stg_src_view.STG_1004_3659_page
+                                - prod_stg.STG_1004_3659_page
+                            - prod_ref_src_view.BKEY_5915_ITEM **traced above**
+                            - prod_ref_src_view.BKEY_6300_PRTY **traced above**
+                            - prod_ref_src_view.BMAP_Standard_Map **traced above**
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_class_xref_1005_3054_354
+                - prod_srci_src_view.SRCI_1005_3054_sales_order_line_items **traced above**
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_class_xref_1005_3054_266
+                - prod_srci_src_view.SRCI_1005_3054_sales_order_line_items_1
+                    - prod_srci.SRCI_1005_3054_sales_order_line_items **traced above**
+                - prod_srci_src_view.SRCI_1005_3054_sales_order_line_items **traced above**
+            - prod_mdl_trnsfrm_view.TX_ad_order_line_class_xref_1005_3054_265
+                - prod_srci_src_view.SRCI_1005_3054_sales_order_line_items **traced above**
