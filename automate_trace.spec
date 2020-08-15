@@ -30,4 +30,4 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=False , icon='trace_shoe.ico')
+          console=True , icon='trace_shoe.ico')

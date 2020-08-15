@@ -2,7 +2,7 @@
 ```	
 conda install -c conda-forge pyinstaller	
 conda install -c anaconda pywin32	
-pyinstaller --add-binary "C:\Users\cqiu\Desktop\projects\teradata-migration\teradata_trace\automation\env\Lib\site-packages\teradatasql;teradatasql" --onefile --windowed --icon=trace_shoe.ico automate_trace.py	
+pyinstaller --add-binary "C:\Users\cqiu\Desktop\projects\teradata-migration\teradata_trace\automation\env\Lib\site-packages\teradatasql;teradatasql" --onefile --icon=trace_shoe.ico automate_trace.py	
 
 # reducing size by upx
 pyinstaller automate_trace.py --upx-dir=.\upx-3.96-win64 -y --onefile
