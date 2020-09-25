@@ -60,7 +60,7 @@ def expand_to_child_tables(obj):
     if re.match(r'^.*_view\..*$', obj ,re.I  ) :
         
         df = pd.read_sql_query(f"""show view {obj}""", connection)
-        tx_view=df.iloc[0,0]
+        tx_view="".join(df.iloc[:,0].to_list())
         tx_view = re.sub(r"\/\*.*?\*\/", '', tx_view) 
         
         allmatches= re.findall( r'((left|inner|left outer) join|from|join)[ \r\n]+?(prod_[^\s]+?\. *?[^\s]+?)[ \r\n]', tx_view, re.M|re.I)
